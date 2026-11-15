@@ -1,0 +1,391 @@
+{
+  "title": "연구실의 순간들",
+  "note": "새 사진은 assets/gallery/thumb · assets/gallery/full 에 넣고 이 배열에 한 줄 추가하면 됩니다.",
+  "photos": [
+    {
+      "src": "assets/gallery/full/trang-an.jpg",
+      "thumb": "assets/gallery/thumb/trang-an.jpg",
+      "alt": "짱안의 잔잔한 강과 물에 비친 석회암 산봉우리",
+      "caption": "짱안의 강과 석회암 봉우리",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-night.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-night.jpg",
+      "alt": "홍등이 걸린 하노이 거리와 늘어선 가게들",
+      "caption": "하노이 구시가지의 밤",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/st-joseph.jpg",
+      "thumb": "assets/gallery/thumb/st-joseph.jpg",
+      "alt": "하노이 성요셉성당의 회색 정면",
+      "caption": "성요셉성당",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/table-mountain-frame.jpg",
+      "thumb": "assets/gallery/thumb/table-mountain-frame.jpg",
+      "alt": "노란 테이블마운틴 프레임에 앉은 일행",
+      "caption": "테이블마운틴 프레임",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/cape-point.jpg",
+      "thumb": "assets/gallery/thumb/cape-point.jpg",
+      "alt": "케이프포인트의 붉은 흙과 바위, 그 너머의 바다",
+      "caption": "케이프포인트 바위 지대",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/cape-coastline.jpg",
+      "thumb": "assets/gallery/thumb/cape-coastline.jpg",
+      "alt": "절벽 위에서 내려다본 케이프 해안선과 백사장",
+      "caption": "케이프 해안선",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/boulders-shore.jpg",
+      "thumb": "assets/gallery/thumb/boulders-shore.jpg",
+      "alt": "청록색 바다와 흰 모래, 둥근 바위들",
+      "caption": "볼더스비치의 바위와 바다",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/boulders-penguins.jpg",
+      "thumb": "assets/gallery/thumb/boulders-penguins.jpg",
+      "alt": "모래 위에 모여 있는 아프리카펭귄 무리",
+      "caption": "볼더스비치의 펭귄",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/sand-writing.jpg",
+      "thumb": "assets/gallery/thumb/sand-writing.jpg",
+      "alt": "모래에 남은 발자국과 손글씨",
+      "caption": "모래 위의 발자국",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/cape-town-dusk.jpg",
+      "thumb": "assets/gallery/thumb/cape-town-dusk.jpg",
+      "alt": "언덕에서 내려다본 케이프타운 시내와 바다 위의 석양",
+      "caption": "해 질 무렵의 케이프타운",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/table-mountain-cablecar.jpg",
+      "thumb": "assets/gallery/thumb/table-mountain-cablecar.jpg",
+      "alt": "절벽을 오르는 회전식 케이블카",
+      "caption": "테이블마운틴 케이블카",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/garden.jpg",
+      "thumb": "assets/gallery/thumb/garden.jpg",
+      "alt": "보랏빛 아가판서스가 핀 정원과 건물",
+      "caption": "아가판서스가 핀 정원",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/poster-session.jpg",
+      "thumb": "assets/gallery/thumb/poster-session.jpg",
+      "alt": "포스터 앞에서 발표하는 연구자",
+      "caption": "포스터 세션 발표",
+      "tag": "WCPH 2026"
+    },
+    {
+      "src": "assets/gallery/full/conference-hall.jpg",
+      "thumb": "assets/gallery/thumb/conference-hall.jpg",
+      "alt": "학회장 로비에 모인 참가자들",
+      "caption": "학회장에서",
+      "tag": "WCPH 2026"
+    },
+    {
+      "src": "assets/gallery/full/jump-shot.jpg",
+      "thumb": "assets/gallery/thumb/jump-shot.jpg",
+      "alt": "푸른 잔디밭에서 뛰어오르는 세 사람",
+      "caption": "점프샷",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/yacht.jpg",
+      "thumb": "assets/gallery/thumb/yacht.jpg",
+      "alt": "테이블마운틴을 배경으로 요트에서 찍은 사진",
+      "caption": "요트 위에서",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/trail.jpg",
+      "thumb": "assets/gallery/thumb/trail.jpg",
+      "alt": "배낭을 메고 오르는 산길",
+      "caption": "트레킹",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/boardwalk.jpg",
+      "thumb": "assets/gallery/thumb/boardwalk.jpg",
+      "alt": "바닷가 데크에서 바다를 바라보는 사람들",
+      "caption": "바닷가 산책로",
+      "tag": "케이프타운"
+    },
+    {
+      "src": "assets/gallery/full/wcph-banner.jpg",
+      "thumb": "assets/gallery/thumb/wcph-banner.jpg",
+      "alt": "18th WCPH 현수막",
+      "caption": "18th World Congress on Public Health",
+      "tag": "WCPH 2026"
+    },
+    {
+      "src": "assets/gallery/full/session-room.jpg",
+      "thumb": "assets/gallery/thumb/session-room.jpg",
+      "alt": "세션이 진행 중인 학회장",
+      "caption": "세션장",
+      "tag": "WCPH 2026"
+    },
+    {
+      "src": "assets/gallery/full/hk-flowers.jpg",
+      "thumb": "assets/gallery/thumb/hk-flowers.jpg",
+      "alt": "초록 잎 사이로 핀 주황색 꽃",
+      "caption": "공원 화단의 꽃",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-park-path.jpg",
+      "thumb": "assets/gallery/thumb/hk-park-path.jpg",
+      "alt": "도심 빌딩이 보이는 공원 산책로",
+      "caption": "홍콩공원 산책로",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-park-fountain.jpg",
+      "thumb": "assets/gallery/thumb/hk-park-fountain.jpg",
+      "alt": "공원 분수대와 그 앞을 지나는 사람",
+      "caption": "분수대 앞에서",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-park-walk.jpg",
+      "thumb": "assets/gallery/thumb/hk-park-walk.jpg",
+      "alt": "나무가 우거진 공원 산책로",
+      "caption": "나무 그늘 산책로",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-aviary.jpg",
+      "thumb": "assets/gallery/thumb/hk-aviary.jpg",
+      "alt": "철망 돔 아래 우거진 열대 식물",
+      "caption": "초록이 가득한 돔",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-park-skyline.jpg",
+      "thumb": "assets/gallery/thumb/hk-park-skyline.jpg",
+      "alt": "푸른 잔디와 나무 너머로 보이는 도심 빌딩",
+      "caption": "공원에서 본 스카이라인",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/peak-view-1.jpg",
+      "thumb": "assets/gallery/thumb/peak-view-1.jpg",
+      "alt": "피크 전망대에서 바라본 홍콩 스카이라인",
+      "caption": "빅토리아피크에서",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/peak-view-2.jpg",
+      "thumb": "assets/gallery/thumb/peak-view-2.jpg",
+      "alt": "난간에 기대어 스카이라인을 바라보는 사람",
+      "caption": "피크 전망대",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/peak-view-3.jpg",
+      "thumb": "assets/gallery/thumb/peak-view-3.jpg",
+      "alt": "팔을 뻗어 스카이라인을 가리키는 사람",
+      "caption": "피크에서",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/peak-city.jpg",
+      "thumb": "assets/gallery/thumb/peak-city.jpg",
+      "alt": "산 아래로 펼쳐진 홍콩의 고층 빌딩",
+      "caption": "피크에서 내려다본 도심",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/peak-group.jpg",
+      "thumb": "assets/gallery/thumb/peak-group.jpg",
+      "alt": "피크 테라스에서 단체로 찍은 사진",
+      "caption": "피크 테라스에서 함께",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/mid-levels-wall.jpg",
+      "thumb": "assets/gallery/thumb/mid-levels-wall.jpg",
+      "alt": "파란 벽과 알록달록한 타일 벽이 이어지는 골목",
+      "caption": "미드레벨스의 벽화 골목",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/mid-levels-wall-2.jpg",
+      "thumb": "assets/gallery/thumb/mid-levels-wall-2.jpg",
+      "alt": "타일 벽 앞을 지나는 사람",
+      "caption": "벽화 앞",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/mid-levels-wall-3.jpg",
+      "thumb": "assets/gallery/thumb/mid-levels-wall-3.jpg",
+      "alt": "파란 벽 골목을 걷는 사람",
+      "caption": "골목 풍경",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/mid-levels-wall-4.jpg",
+      "thumb": "assets/gallery/thumb/mid-levels-wall-4.jpg",
+      "alt": "벽화 벽 앞에 선 두 사람",
+      "caption": "골목에서",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/soho-street.jpg",
+      "thumb": "assets/gallery/thumb/soho-street.jpg",
+      "alt": "가파른 골목에 늘어선 가게와 사람들",
+      "caption": "소호의 언덕길",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-mall.jpg",
+      "thumb": "assets/gallery/thumb/hk-mall.jpg",
+      "alt": "에스컬레이터가 이어진 쇼핑몰 내부",
+      "caption": "쇼핑몰의 에스컬레이터",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/night-market.jpg",
+      "thumb": "assets/gallery/thumb/night-market.jpg",
+      "alt": "야시장에서 음식을 만드는 노점",
+      "caption": "야시장 노점",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/egg-waffle.jpg",
+      "thumb": "assets/gallery/thumb/egg-waffle.jpg",
+      "alt": "종이봉투에 담긴 에그와플",
+      "caption": "에그와플",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/exhibition-model.jpg",
+      "thumb": "assets/gallery/thumb/exhibition-model.jpg",
+      "alt": "조명 아래 놓인 건축 모델",
+      "caption": "전시장의 건축 모델",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/bkk-palace-roof.jpg",
+      "thumb": "assets/gallery/thumb/bkk-palace-roof.jpg",
+      "alt": "푸른 하늘 아래 금빛으로 빛나는 왕궁 지붕",
+      "caption": "왕궁의 지붕",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-guardian.jpg",
+      "thumb": "assets/gallery/thumb/bkk-guardian.jpg",
+      "alt": "금빛으로 장식된 거대 수호상",
+      "caption": "왕궁의 수호상",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-guards.jpg",
+      "thumb": "assets/gallery/thumb/bkk-guards.jpg",
+      "alt": "하얀 제복을 입고 행진하는 위병",
+      "caption": "위병 행렬",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-rooftop-pool.jpg",
+      "thumb": "assets/gallery/thumb/bkk-rooftop-pool.jpg",
+      "alt": "호텔 루프탑의 수영장과 초록 정원",
+      "caption": "루프탑 수영장",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-rooftop-team.jpg",
+      "thumb": "assets/gallery/thumb/bkk-rooftop-team.jpg",
+      "alt": "도심 스카이라인을 배경으로 루프탑에서 찍은 단체사진",
+      "caption": "루프탑에서 함께",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-intersection.jpg",
+      "thumb": "assets/gallery/thumb/bkk-intersection.jpg",
+      "alt": "형형색색 차량이 오가는 넓은 교차로",
+      "caption": "방콕의 사거리",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-flowers.jpg",
+      "thumb": "assets/gallery/thumb/bkk-flowers.jpg",
+      "alt": "잎 사이로 핀 붉은 꽃과 초록 잎",
+      "caption": "가로수의 붉은 꽃",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-aquascape.jpg",
+      "thumb": "assets/gallery/thumb/bkk-aquascape.jpg",
+      "alt": "이끼와 수초로 꾸민 수조",
+      "caption": "수초 수조",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-street-food.jpg",
+      "thumb": "assets/gallery/thumb/bkk-street-food.jpg",
+      "alt": "주황색 앞치마를 두른 노점 상인들",
+      "caption": "길거리 음식 노점",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-noodle-shop.jpg",
+      "thumb": "assets/gallery/thumb/bkk-noodle-shop.jpg",
+      "alt": "골목 국수집 안에서 식사하는 사람들",
+      "caption": "골목 국수집",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-night-stall.jpg",
+      "thumb": "assets/gallery/thumb/bkk-night-stall.jpg",
+      "alt": "저녁에 문을 연 길거리 식당",
+      "caption": "저녁 노점",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-market.jpg",
+      "thumb": "assets/gallery/thumb/bkk-market.jpg",
+      "alt": "구슬 장식이 가득 걸린 시장 노점",
+      "caption": "시장의 구슬 노점",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-market-street.jpg",
+      "thumb": "assets/gallery/thumb/bkk-market-street.jpg",
+      "alt": "바구니를 앞에 두고 앉은 사람",
+      "caption": "시장 골목",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-juice.jpg",
+      "thumb": "assets/gallery/thumb/bkk-juice.jpg",
+      "alt": "카운터에 가지런히 놓인 오렌지 주스 병",
+      "caption": "주스 노점",
+      "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/bkk-noodles.jpg",
+      "thumb": "assets/gallery/thumb/bkk-noodles.jpg",
+      "alt": "고기와 채소를 올린 쌀국수 한 그릇",
+      "caption": "쌀국수 한 그릇",
+      "tag": "방콕"
+    }
+  ]
+}
