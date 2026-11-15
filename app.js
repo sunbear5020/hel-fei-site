@@ -211,6 +211,32 @@
     });
   }
 
+  /* ---------- Research project year filter ---------- */
+
+  var projFilterBtns = Array.prototype.slice.call(doc.querySelectorAll(".project-filter-btn"));
+  var projItems = Array.prototype.slice.call(doc.querySelectorAll("#projectItems > li"));
+
+  if (projFilterBtns.length && projItems.length) {
+    var applyProjYear = function (year) {
+      projItems.forEach(function (li) {
+        var show = year === "all" || li.getAttribute("data-year") === year;
+        if (show) li.removeAttribute("hidden");
+        else li.setAttribute("hidden", "");
+      });
+      projFilterBtns.forEach(function (btn) {
+        var on = btn.getAttribute("data-year") === year;
+        btn.classList.toggle("is-active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    };
+
+    projFilterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyProjYear(btn.getAttribute("data-year"));
+      });
+    });
+  }
+
   /* ---------- Copy email ---------- */
 
   var copyBtn = doc.getElementById("copyMail");

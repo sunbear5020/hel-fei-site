@@ -12,13 +12,18 @@
 ```
 index.html            페이지 마크업
 style.css             디자인 시스템과 반응형 레이아웃
-app.js                내비게이션, 스크롤 리빌, 논문 연도 필터, 구성원 카드, 소개글 작성기,
-                      사진첩과 라이트박스 (의존성 없음)
+app.js                내비게이션, 스크롤 리빌, 논문·연구과제 연도 필터, 구성원 카드,
+                      소개글 작성기, 사진첩과 라이트박스 (의존성 없음)
 data/members.js       구성원 소개 데이터 (아래 '내 소개글 고치기')
 gallery.json          사진첩 목록 (아래 '사진 추가하기')
-assets/               로고, 구성원 사진(members/), 사진첩(gallery/thumb · gallery/full)
+assets/               로고, 첫 화면 아트워크(hero-silhouette.jpg), 구성원 사진(members/),
+                      사진첩(gallery/thumb · gallery/full)
 tools/                사진첩에 사진을 넣는 도우미 스크립트
 ```
+
+> `assets/hero-silhouette.jpg` 는 연구실이 받은 배너용 PDF(등대·하이커·새·사진가·자전거·나무 심는 아이 실루엣)를
+> 사이트 팔레트에 맞춰 다시 그린 첫 화면 아트워크입니다. 곰 실루엣은 SVG Repo의
+> 'Bear Side View Silhouette'(무료 배포 벡터)를 사용했습니다.
 
 ## 내 소개글 고치기 (구성원용)
 
