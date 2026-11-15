@@ -1,5 +1,5 @@
 /* =========================================================
-   HEL&FEI — Human & Environment Lab
+   FEI · HEL — Human & Environmental Lab
    Editorial forest palette · static, no build
    ========================================================= */
 
@@ -107,7 +107,7 @@ button { font: inherit; color: inherit; }
 }
 
 .brand { display: inline-flex; align-items: center; gap: 12px; color: var(--forest); }
-.brand-mark { display: grid; place-items: center; color: var(--moss); }
+.brand-logo { display: block; width: 38px; height: 38px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong {
   font-family: var(--sans);
@@ -383,6 +383,48 @@ button { font: inherit; color: inherit; }
 
 /* Research pillars */
 
+/* Two names, one lab */
+
+.brands { border-top: 1px solid var(--line-soft); }
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.brand-card { background: var(--paper-soft); padding: clamp(24px, 3.2vw, 38px); }
+.brand-kicker {
+  margin: 0 0 12px;
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.brand-card h3 {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(18px, 1.7vw, 22px);
+  line-height: 1.45;
+  color: var(--forest-deep);
+}
+.brand-role {
+  margin: 0 0 16px;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--moss);
+}
+.brand-card p:not(.brand-kicker):not(.brand-role) { color: var(--slate); font-size: 14.5px; line-height: 1.85; }
+.brand-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 20px; }
+.brand-tags li {
+  font-size: 11.5px;
+  color: var(--moss);
+  border: 1px solid rgba(68, 101, 79, 0.28);
+  background: var(--paper);
+  padding: 4px 10px;
+}
+
 .research { background: var(--paper-soft); border-top: 1px solid var(--line-soft); }
 .pillar-grid {
   display: grid;
@@ -647,6 +689,90 @@ button { font: inherit; color: inherit; }
 .pi-contact a:hover { border-bottom-color: var(--moss); }
 .pi-contact span { margin: 0 8px; }
 
+.people .section-desc { text-wrap: balance; }
+
+/* Lab members roster */
+
+.roster {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: clamp(34px, 4vw, 50px);
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.roster-col { background: var(--paper-soft); padding: clamp(22px, 2.6vw, 30px); }
+.roster-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--line);
+}
+.roster-head h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  color: var(--forest-deep);
+}
+.roster-head h3 span {
+  margin-left: 8px;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.roster-head em {
+  font-style: normal;
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.roster-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.roster-list li:last-child { border-bottom: 0; padding-bottom: 2px; }
+.roster-initial {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(160deg, rgba(68, 101, 79, 0.12), rgba(28, 58, 44, 0.04)),
+    var(--paper);
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--moss);
+}
+.roster-name {
+  font-family: var(--serif);
+  font-size: 16.5px;
+  letter-spacing: 0.01em;
+  color: var(--forest-deep);
+}
+.roster-badge {
+  margin-left: auto;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.roster-badge.is-manager { color: var(--gold); border-color: rgba(176, 141, 87, 0.45); }
+
 .member-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -772,6 +898,34 @@ button { font: inherit; color: inherit; }
 
 /* Contact */
 
+/* Collaborations */
+
+.partners { background: var(--paper); border-top: 1px solid var(--line-soft); padding: clamp(44px, 6vw, 66px) 0; }
+.partners-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 52px);
+  align-items: start;
+}
+.partners-head .eyebrow { margin-bottom: 10px; }
+.partners-head h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(21px, 2.1vw, 27px);
+  letter-spacing: -0.02em;
+  color: var(--forest-deep);
+}
+.partners-body p { margin: 0 0 18px; font-size: 14px; color: var(--muted); }
+.partner-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.partner-tags li {
+  font-size: 12.5px;
+  color: var(--slate);
+  border: 1px solid var(--line);
+  background: var(--paper-soft);
+  padding: 7px 14px;
+}
+
 .contact { background: var(--paper); border-top: 1px solid var(--line-soft); }
 .contact-grid {
   display: grid;
@@ -884,12 +1038,12 @@ button { font: inherit; color: inherit; }
   gap: 26px 40px;
   align-items: start;
 }
-.footer-brand strong {
-  display: block;
+.footer-brand-row { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+.footer-logo { display: block; width: 42px; height: 42px; }
+.footer-brand-row strong {
   font-size: 14px;
   letter-spacing: 0.2em;
   color: #f2f5ed;
-  margin-bottom: 10px;
 }
 .footer-brand p { margin: 0; font-size: 12.5px; line-height: 1.8; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 18px; }
@@ -950,6 +1104,7 @@ button { font: inherit; color: inherit; }
   .project-visual { max-width: 520px; }
   .pub-layout { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
+  .roster { grid-template-columns: 1fr; }
   .member-grid { grid-template-columns: 1fr; }
   .pi { grid-template-columns: 150px minmax(0, 1fr); }
 }
@@ -980,6 +1135,8 @@ button { font: inherit; color: inherit; }
   }
   .site-nav a::after { display: none; }
   .pillar-grid { grid-template-columns: 1fr; }
+  .brand-grid { grid-template-columns: 1fr; }
+  .partners-inner { grid-template-columns: 1fr; gap: 16px; }
   .pi { grid-template-columns: 1fr; }
   .pi-photo { max-width: 168px; }
   .footer-inner { grid-template-columns: 1fr; }
@@ -992,11 +1149,16 @@ button { font: inherit; color: inherit; }
 @media (max-width: 460px) {
   body { font-size: 15px; }
   .hero h1 { font-size: 30px; }
+  .brand-logo { width: 34px; height: 34px; }
+  .footer-logo { width: 38px; height: 38px; }
   .btn { width: 100%; justify-content: center; }
   .hero-actions { gap: 10px; }
   .contact-actions .btn { width: 100%; }
   .contact-list > div { grid-template-columns: 1fr; gap: 4px; }
   .pi-facts li { grid-template-columns: 1fr; gap: 2px; }
+  .roster-head h3 { font-size: 17px; }
+  .roster-head h3 span { display: block; margin: 2px 0 0; font-size: 10px; }
+  .roster-badge { font-size: 10px; padding: 2px 6px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

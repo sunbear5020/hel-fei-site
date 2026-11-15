@@ -1,7 +1,7 @@
-# HEL&FEI — 인간환경연구실 (Human & Environment Lab)
+# FEI · HEL — 인간환경연구실 (Human & Environmental Lab)
 
 경상국립대학교 환경산림과학부 산림환경자원학과 인간환경연구실의 공식 홈페이지입니다.
-**Human & Environment Lab · Formula for Environmental Intelligence (HEL&FEI)**
+**Formula for Environmental Intelligence (FEI) · Human & Environmental Lab (HEL)**
 
 - 산림치유 & 건강영향 · 산림환경·미기상·임상도 공간분석 · 가명정보 기반 맞춤 처방 · 대국민 산림복지 서비스
 
@@ -13,6 +13,7 @@
 index.html    페이지 마크업
 style.css     디자인 시스템과 반응형 레이아웃
 app.js        내비게이션, 스크롤 리빌, 이메일 복사 (의존성 없음)
+assets/       로고 이미지 (lab-logo.png, favicon.png, apple-touch-icon.png)
 ```
 
 ## 배포 (GitHub Pages)
@@ -33,4 +34,4 @@ app.js        내비게이션, 스크롤 리빌, 이메일 복사 (의존성 없
 
 ---
 
-© HEL&FEI, Gyeongsang National University.
+© FEI · HEL, Gyeongsang National University.

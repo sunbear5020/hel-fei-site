@@ -1,4 +1,4 @@
-/* HEL&FEI 인간환경연구실 — interface behaviour
+/* FEI · HEL 인간환경연구실 — interface behaviour
    No dependencies. Progressive enhancement only. */
 
 (function () {
