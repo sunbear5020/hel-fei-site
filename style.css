@@ -1305,6 +1305,74 @@ code { font-family: var(--mono); font-size: 0.92em; }
 .project-status.is-ongoing { border-color: rgba(201, 100, 66, 0.45); color: var(--clay-deep); }
 .project-status.is-done { color: var(--muted); }
 .project-status.is-review { border-style: dashed; border-color: rgba(20, 20, 19, 0.28); color: var(--text-soft); }
+.project-wrap--past { margin-top: clamp(40px, 5vw, 62px); }
+
+/* ---------------- Awards & patent ---------------- */
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: start;
+}
+.award-list { margin: 0; padding: 0; list-style: none; }
+.award-list li {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 18px;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.award-list li:first-child { border-top: 1px solid var(--line-soft); }
+.award-year {
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--muted-light);
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.award-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.award-title em { font-style: normal; color: var(--clay-deep); }
+.award-meta {
+  margin: 5px 0 0;
+  font-size: 11.5px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+}
+
+.patent-card {
+  padding: clamp(20px, 2.4vw, 28px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--cream);
+}
+.patent-label {
+  margin: 0 0 14px;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  color: var(--clay-deep);
+}
+.patent-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.62;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.patent-facts { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line-soft); }
+.patent-facts > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.patent-facts dt { font-size: 11.5px; letter-spacing: 0.05em; color: var(--muted); }
+.patent-facts dd { margin: 0; font-size: 13.5px; color: var(--ink); font-variant-numeric: tabular-nums; }
 
 .pub-filter { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 20px; }
 .pub-filter-btn,
@@ -1883,6 +1951,9 @@ code { font-family: var(--mono); font-size: 0.92em; }
   .project-status { grid-column: 2; justify-self: start; }
   .pub-year { font-size: 11px; letter-spacing: 0.08em; }
   .project-facts > div { grid-template-columns: 82px minmax(0, 1fr); }
+  .awards-grid { grid-template-columns: 1fr; }
+  .award-list li { grid-template-columns: 48px minmax(0, 1fr); gap: 14px; }
+  .award-title { font-size: 15px; }
   .statement { padding: 22px 20px; }
   .bio-dialog { width: calc(100vw - 20px); border-radius: 14px; }
 }
