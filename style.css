@@ -339,6 +339,39 @@ code { font-family: var(--mono); font-size: 0.92em; }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
 
+.hero-lead-brand {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.hero-manifesto {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.32fr) minmax(0, 0.68fr);
+  gap: clamp(20px, 3.4vw, 52px);
+  margin-top: clamp(34px, 4.4vw, 56px);
+  padding-top: clamp(22px, 2.6vw, 30px);
+  border-top: 1px solid var(--line);
+}
+.hero-manifesto-item p { margin: 0; }
+.hero-manifesto-item .eyebrow { margin-bottom: 12px; }
+.hero-manifesto-item p:last-child {
+  max-width: 62ch;
+  font-size: 14.5px;
+  line-height: 1.88;
+  color: var(--text-soft);
+}
+.hero-manifesto-item:last-child p:last-child {
+  font-family: var(--serif);
+  font-size: clamp(16px, 1.55vw, 19.5px);
+  line-height: 1.72;
+  letter-spacing: -0.018em;
+  color: var(--ink);
+}
+
 .hero-foot {
   display: flex;
   flex-wrap: wrap;
@@ -465,6 +498,14 @@ code { font-family: var(--mono); font-size: 0.92em; }
   font-style: normal;
   font-size: 11.5px;
   letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.lab-question .lab-question-note {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--muted);
 }
 
@@ -764,6 +805,7 @@ code { font-family: var(--mono); font-size: 0.92em; }
 }
 .pi-role { margin: 0 0 18px; font-size: 13.5px; color: var(--clay-deep); }
 .pi-bio { max-width: 68ch; font-size: 15px; line-height: 1.85; color: var(--text-soft); }
+.pi-body .pi-bio + .pi-bio { margin-top: 14px; }
 .pi-facts { margin: 22px 0 20px; border-top: 1px solid var(--line-soft); }
 .pi-facts li {
   display: grid;
@@ -1056,6 +1098,69 @@ code { font-family: var(--mono); font-size: 0.92em; }
 .member-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
 .member-toggle:hover,
 .member-write:hover { color: var(--clay-deep); }
+
+/* ---- PhD cards (#6fadcf) ---- */
+.member.member--phd {
+  background: #6fadcf;
+  border-color: rgba(15, 23, 42, 0.18);
+}
+.member.member--phd:hover {
+  background: #62a7cc;
+  border-color: rgba(15, 23, 42, 0.3);
+}
+.member.member--phd.is-open {
+  background: #7ab6d4;
+  border-color: rgba(15, 23, 42, 0.24);
+}
+.member.member--phd.is-pending {
+  align-self: stretch;
+  background: #6fadcf;
+  border-color: rgba(15, 23, 42, 0.18);
+}
+.member.member--phd.is-pending:hover { background: #62a7cc; }
+
+.member--phd .member-id h4 { color: #0f172a; }
+.member--phd .member-en { color: rgba(15, 23, 42, 0.66); }
+.member--phd .member-mail a { color: rgba(15, 23, 42, 0.76); }
+.member--phd .member-mail a:hover { color: #0f172a; border-bottom-color: #0f172a; }
+.member--phd .member-tag {
+  color: #0b2233;
+  background: rgba(255, 255, 255, 0.55);
+  border-color: rgba(15, 23, 42, 0.16);
+}
+.member--phd .member-avatar,
+.member--phd .member-initial {
+  background: rgba(255, 255, 255, 0.62);
+  border-color: rgba(15, 23, 42, 0.2);
+}
+.member--phd .member-line { color: #12324c; }
+.member--phd .member-line.is-empty { color: rgba(15, 23, 42, 0.74); }
+.member--phd .member-line.is-empty::before { background: #0f172a; }
+.member--phd .member-slots li {
+  color: rgba(15, 23, 42, 0.72);
+  border-color: rgba(15, 23, 42, 0.24);
+}
+.member--phd .member-body p { color: #12324c; }
+.member--phd .member-body .member-en-bio {
+  border-top-color: rgba(15, 23, 42, 0.18);
+  color: rgba(15, 23, 42, 0.76);
+}
+.member--phd .member-label { color: rgba(15, 23, 42, 0.62) !important; }
+.member--phd .member-body .chips li {
+  color: #0f172a;
+  border-color: rgba(15, 23, 42, 0.26);
+  background: rgba(255, 255, 255, 0.42);
+}
+.member--phd .member-links a { color: #0f172a; border-bottom-color: rgba(15, 23, 42, 0.3); }
+.member--phd .member-links a:hover { color: #06121d; border-bottom-color: #06121d; }
+.member--phd .member-toggle { color: #0f172a; }
+.member--phd .member-write { color: rgba(15, 23, 42, 0.74); }
+.member--phd .member-toggle:hover,
+.member--phd .member-write:hover { color: #06121d; }
+.member--phd .member-empty-note {
+  background: rgba(255, 255, 255, 0.52) !important;
+  color: #12324c !important;
+}
 
 /* ---------------- Bio CTA ---------------- */
 
@@ -1525,6 +1630,7 @@ code { font-family: var(--mono); font-size: 0.92em; }
   background: var(--cream);
   pointer-events: none;
 }
+.bio-preview .member.member--phd { background: #6fadcf; }
 .bio-preview-empty { margin: 0; font-size: 12.5px; color: var(--muted); }
 
 .bio-json {
@@ -1704,6 +1810,7 @@ code { font-family: var(--mono); font-size: 0.92em; }
   .hero-aside { justify-self: start; text-align: left; }
   .hero-aside .hero-foot { justify-content: flex-start; }
   .hero-actions { margin-top: 26px; }
+  .hero-manifesto { grid-template-columns: 1fr; gap: 22px; }
   .about-grid { grid-template-columns: 1fr; }
   .about-points { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .pillar { grid-template-columns: 48px minmax(0, 1fr); }

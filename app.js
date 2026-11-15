@@ -540,9 +540,13 @@
     var bodyId = "mb-" + (m.id || "x");
     var summary = summaryOf(m);
     var initial = String(m.name || "?").trim().charAt(0);
+    var programClass = m.program
+      ? " member--" + String(m.program).toLowerCase().replace(/[^a-z0-9-]/g, "")
+      : "";
 
     var html =
       '<article class="member' +
+      programClass +
       (hasBio ? "" : " is-empty") +
       (m.pending ? " is-pending" : "") +
       '" data-member="' +
