@@ -555,6 +555,11 @@
         '<span class="member-avatar"><img src="' +
         esc(m.photo) +
         '" alt="" width="40" height="40" loading="lazy" decoding="async" /></span>';
+    } else if (m.avatar) {
+      html +=
+        '<span class="member-avatar member-avatar--flower"><img src="' +
+        esc(m.avatar) +
+        '" alt="" width="40" height="40" loading="lazy" decoding="async" /></span>';
     } else {
       html += '<span class="member-initial" aria-hidden="true">' + esc(initial) + "</span>";
     }

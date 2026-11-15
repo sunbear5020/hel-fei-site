@@ -11,6 +11,8 @@
       - links 는 [{ "label": "Google Scholar", "href": "https://..." }] 형태입니다.
    5) 사진을 넣으려면 assets/members/ 에 정사각형 이미지를 넣고
       "photo": "assets/members/내이름.jpg" 한 줄을 추가합니다.
+      (아직 사진이 없을 때 이니셜 대신 보여 줄 그림을 쓰려면
+       "avatar": "assets/members/꽃.jpg" 를 씁니다. 사진이 있으면 사진이 먼저 나옵니다.)
    6) 저장하고 커밋하면 사이트 카드에 바로 반영됩니다.
 
    잘 모르겠으면 사이트의 「내 소개글 작성하기」를 쓰세요.
@@ -43,6 +45,7 @@ window.LAB_MEMBERS = [
     "id": "doyun-song",
     "name": "송도윤",
     "nameEn": "Song Doyun",
+    "avatar": "assets/members/flower-doyun-song.jpg",
     "program": "phd",
     "tag": "박사과정",
     "pending": true,
@@ -73,6 +76,7 @@ window.LAB_MEMBERS = [
     "id": "jonghye-park",
     "name": "박종혜",
     "nameEn": "Park Jonghye",
+    "avatar": "assets/members/flower-jonghye-park.jpg",
     "program": "phd",
     "tag": "박사과정",
     "pending": true,
