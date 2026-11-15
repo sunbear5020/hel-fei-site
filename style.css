@@ -594,7 +594,7 @@ code { font-family: var(--mono); font-size: 0.92em; }
   gap: clamp(34px, 5vw, 76px);
   align-items: center;
 }
-.project-title {
+.project-copy .project-title {
   margin: 0 0 8px;
   font-family: var(--serif);
   font-weight: 400;

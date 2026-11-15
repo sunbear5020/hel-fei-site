@@ -114,7 +114,7 @@ python3 tools/add-gallery-photo.py ~/Desktop/photo.jpg \
 
 ## 프로젝트
 
-- **숲처방** — 대국민 산림치유 맞춤 추천 프로토타입
+- **숲결 (Soopgyeol)** — 대국민 산림치유 맞춤 추천 프로토타입
   https://sunbear5020.github.io/forest-healing-prototype/
 
 ## 연락처
