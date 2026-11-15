@@ -874,6 +874,42 @@ button { font: inherit; color: inherit; }
 }
 .pub-doi:hover { color: var(--forest); border-bottom-color: var(--forest); }
 .pub-note { margin: 22px 0 0; font-size: 12px; color: var(--muted); }
+.pub-total { margin-left: 4px; font-size: 10.5px; letter-spacing: 0.04em; color: var(--muted); }
+
+/* year filter */
+.pub-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+.pub-filter-btn {
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--slate);
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease), background 0.2s var(--ease);
+}
+.pub-filter-btn span { margin-left: 5px; font-size: 10.5px; color: var(--muted); }
+.pub-filter-btn:hover { color: var(--forest); border-color: var(--moss); }
+.pub-filter-btn.is-active { color: var(--paper); background: var(--forest); border-color: var(--forest); }
+.pub-filter-btn.is-active span { color: rgba(245, 243, 236, 0.66); }
+.pub-filter-btn:focus-visible { outline: 2px solid var(--moss); outline-offset: 2px; }
+.pub-items li[hidden] { display: none; }
+.pub-cites {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* news strip */
+.news-strip { margin: 0 0 clamp(32px, 4vw, 48px); }
+.news-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 clamp(18px, 2.6vw, 34px); }
+.news-grid li { padding: 16px 0; }
 
 .news-list li {
   padding: 18px 0;
@@ -1144,6 +1180,10 @@ button { font: inherit; color: inherit; }
   .project-facts > div { grid-template-columns: 82px minmax(0, 1fr); }
   .pub-list li { grid-template-columns: 1fr; gap: 6px; }
   .pub-year { font-size: 11.5px; letter-spacing: 0.1em; }
+  .news-grid { grid-template-columns: 1fr; gap: 0; }
+  .news-grid li { padding: 14px 0; }
+  .pub-filter { gap: 5px; }
+  .pub-filter-btn { padding: 7px 10px; font-size: 11.5px; }
 }
 
 @media (max-width: 460px) {

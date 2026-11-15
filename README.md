@@ -12,7 +12,7 @@
 ```
 index.html    페이지 마크업
 style.css     디자인 시스템과 반응형 레이아웃
-app.js        내비게이션, 스크롤 리빌, 이메일 복사 (의존성 없음)
+app.js        내비게이션, 스크롤 리빌, 이메일 복사, 논문 연도 필터 (의존성 없음)
 assets/       로고 이미지 (lab-logo.png, favicon.png, apple-touch-icon.png)
 ```
 

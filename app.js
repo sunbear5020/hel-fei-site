@@ -86,7 +86,9 @@
           observer.unobserve(entry.target);
         });
       },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.08 }
+      // threshold 0: a block taller than the viewport (the publication list) can never
+      // reach a fraction-of-itself threshold, so any visible part reveals it.
+      { rootMargin: "0px 0px -8% 0px", threshold: 0 }
     );
     revealItems.forEach(function (el) { observer.observe(el); });
   }
@@ -114,6 +116,31 @@
       { rootMargin: "-45% 0px -50% 0px", threshold: 0 }
     );
     sections.forEach(function (section) { spy.observe(section); });
+  }
+
+  /* ---------- Publication year filter ---------- */
+  var pubFilterBtns = Array.prototype.slice.call(doc.querySelectorAll(".pub-filter-btn"));
+  var pubItems = Array.prototype.slice.call(doc.querySelectorAll("#pubItems > li"));
+
+  if (pubFilterBtns.length && pubItems.length) {
+    var applyPubYear = function (year) {
+      pubItems.forEach(function (li) {
+        var show = year === "all" || li.getAttribute("data-year") === year;
+        if (show) li.removeAttribute("hidden");
+        else li.setAttribute("hidden", "");
+      });
+      pubFilterBtns.forEach(function (btn) {
+        var on = btn.getAttribute("data-year") === year;
+        btn.classList.toggle("is-active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    };
+
+    pubFilterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyPubYear(btn.getAttribute("data-year"));
+      });
+    });
   }
 
   /* ---------- Copy email ---------- */
