@@ -1488,14 +1488,14 @@ window.FEI_I18N_DATA = {
       "zh": "复制邮箱地址"
     },
     "52828 경상남도 진주시 진주대로 501": {
-      "en": "501 Jinju-daero, Jinju, Gyeongnam 52828, Republic of Korea",
-      "ja": "52828 慶尚南道晋州市晋州大路501",
-      "zh": "52828 庆尚南道晋州市晋州大路501"
+      "en": "Bldg. 452 (College of Agriculture & Life Sciences No. 2), Room 237",
+      "ja": "農生命科学大学 2号館（452棟）237号",
+      "zh": "农业生命科学大学2号楼（452栋）237号"
     },
     "경상국립대학교 농업생명과학대학 2호관(452동) 237호": {
-      "en": "Bldg. 452 (College of Agriculture & Life Sciences No. 2), Room 237, Gyeongsang National University",
-      "ja": "慶尚国立大学校 農生命科学大学 2号館（452棟）237号",
-      "zh": "庆尚国立大学 农业生命科学大学2号楼（452栋）237号"
+      "en": "Gyeongsang National University, 501 Jinju-daero, Jinju, Gyeongnam 52828, Republic of Korea",
+      "ja": "慶尚国立大学校 慶尚南道 晋州市 晋州大路501（52828）",
+      "zh": "庆尚国立大学 庆尚南道晋州市晋州大路501（52828）"
     },
     "교수 연구실 452동 226호": {
       "en": "Faculty office: Bldg. 452, Room 226",
@@ -1563,7 +1563,7 @@ window.FEI_I18N_DATA = {
       "zh": "研究室位于晋州加佐校区。邮件请寄至452栋237号，来访日程请先通过"
     },
     "로 먼저 알려 주세요.": {
-      "en": "before you come.",
+      "en": " before you come.",
       "ja": "まで事前にお知らせください。",
       "zh": "告知我们。"
     },

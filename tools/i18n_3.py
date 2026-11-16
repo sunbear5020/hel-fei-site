@@ -90,10 +90,10 @@ ENTRIES = [
     ("소속", "Affiliation", "所属", "所属单位"),
     ("복사", "Copy", "コピー", "复制"),
     ("이메일 주소 복사", "Copy email address", "メールアドレスをコピー", "复制邮箱地址"),
-    ("52828 경상남도 진주시 진주대로 501", "501 Jinju-daero, Jinju, Gyeongnam 52828, Republic of Korea",
-     "52828 慶尚南道晋州市晋州大路501", "52828 庆尚南道晋州市晋州大路501"),
-    ("경상국립대학교 농업생명과학대학 2호관(452동) 237호", "Bldg. 452 (College of Agriculture & Life Sciences No. 2), Room 237, Gyeongsang National University",
-     "慶尚国立大学校 農生命科学大学 2号館（452棟）237号", "庆尚国立大学 农业生命科学大学2号楼（452栋）237号"),
+    ("52828 경상남도 진주시 진주대로 501", "Bldg. 452 (College of Agriculture & Life Sciences No. 2), Room 237",
+     "農生命科学大学 2号館（452棟）237号", "农业生命科学大学2号楼（452栋）237号"),
+    ("경상국립대학교 농업생명과학대학 2호관(452동) 237호", "Gyeongsang National University, 501 Jinju-daero, Jinju, Gyeongnam 52828, Republic of Korea",
+     "慶尚国立大学校 慶尚南道 晋州市 晋州大路501（52828）", "庆尚国立大学 庆尚南道晋州市晋州大路501（52828）"),
     ("교수 연구실 452동 226호", "Faculty office: Bldg. 452, Room 226", "教授研究室 452棟226号", "教授研究室 452栋226号"),
     ("경상국립대학교 환경산림과학부 산림환경자원학과 (산림복지학)",
      "Dept. of Forest Environmental Resources (Forest Welfare), College of Agriculture & Life Sciences, Gyeongsang National University",
@@ -121,7 +121,7 @@ ENTRIES = [
      "The lab is on the Gajwa Campus in Jinju. Please send mail to Room 237, Building 452, and let us know your visit date in advance at",
      "研究室は晋州の加佐キャンパスにあります。郵便物は452棟237号へお送りいただき、訪問日程は",
      "研究室位于晋州加佐校区。邮件请寄至452栋237号，来访日程请先通过"),
-    ("로 먼저 알려 주세요.", "before you come.", "まで事前にお知らせください。", "告知我们。"),
+    ("로 먼저 알려 주세요.", " before you come.", "まで事前にお知らせください。", "告知我们。"),
 
     # ---- footer ----
     ("바로 가기", "Quick links", "クイックリンク", "快捷链接"),
