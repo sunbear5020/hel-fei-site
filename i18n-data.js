@@ -2111,6 +2111,11 @@ window.FEI_I18N_DATA = {
       "en": "Getting here",
       "ja": "行き方",
       "zh": "到达方式"
+    },
+    "지도에서 열기": {
+      "en": "Open in maps",
+      "ja": "地図で開く",
+      "zh": "在地图中打开"
     }
   },
   "html": {
