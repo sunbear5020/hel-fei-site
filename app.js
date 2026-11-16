@@ -1002,15 +1002,15 @@
 
 
   /* =========================================================
-     Hero artwork — pointer + scroll parallax
-     Each .art-layer carries data-depth; the ambient motion of
-     the scene itself is CSS inside the SVG.
+     Hero banner — pointer + scroll parallax
+     The photograph itself breathes and drifts in CSS (style.css);
+     each [data-depth] layer above it moves a little differently here.
      ========================================================= */
 
-  var heroArt = doc.querySelector(".hero-art");
+  var heroStage = doc.querySelector(".hero-stage");
 
-  if (heroArt && !reduceMotion) {
-    var artLayers = Array.prototype.slice.call(heroArt.querySelectorAll(".art-layer"));
+  if (heroStage && !reduceMotion) {
+    var artLayers = Array.prototype.slice.call(heroStage.querySelectorAll("[data-depth]"));
     var artX = 0;
     var artY = 0;
     var artTX = 0;
@@ -1022,7 +1022,7 @@
       artFrame = null;
       artX += (artTX - artX) * 0.08;
       artY += (artTY - artY) * 0.08;
-      var rect = heroArt.getBoundingClientRect();
+      var rect = heroStage.getBoundingClientRect();
       var scrollPush = 0;
       if (rect.height) {
         var centre = rect.top + rect.height / 2;
@@ -1031,8 +1031,8 @@
       }
       artLayers.forEach(function (layer) {
         var depth = parseFloat(layer.getAttribute("data-depth") || "1");
-        var x = artX * depth * 7;
-        var y = artY * depth * 3.4 + scrollPush * depth * 6;
+        var x = artX * depth * 6;
+        var y = artY * depth * 2.6 + scrollPush * depth * 5;
         layer.style.transform = "translate(" + x.toFixed(2) + "px," + y.toFixed(2) + "px)";
       });
       if (Math.abs(artTX - artX) > 0.002 || Math.abs(artTY - artY) > 0.002) {
@@ -1048,7 +1048,7 @@
       "pointermove",
       function (event) {
         if (!artInView) return;
-        var rect = heroArt.getBoundingClientRect();
+        var rect = heroStage.getBoundingClientRect();
         if (!rect.width || !rect.height) return;
         artTX = Math.max(-1, Math.min(1, ((event.clientX - rect.left) / rect.width - 0.5) * 2));
         artTY = Math.max(-1, Math.min(1, ((event.clientY - rect.top) / rect.height - 0.5) * 2));
@@ -1066,7 +1066,7 @@
           if (artInView) artKick();
         },
         { rootMargin: "120px" }
-      ).observe(heroArt);
+      ).observe(heroStage);
     }
   }
 

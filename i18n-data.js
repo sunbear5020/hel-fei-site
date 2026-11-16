@@ -2116,6 +2116,16 @@ window.FEI_I18N_DATA = {
       "en": "Open in maps",
       "ja": "地図で開く",
       "zh": "在地图中打开"
+    },
+    "등대와 배낭을 멘 하이커, 날아오르는 새, 사진을 찍는 사람과 자전거를 타는 사람, 나무를 심는 아이, 물가를 걷는 작은 곰과 여우, 순록을 하나의 숲 지형 실루엣으로 겹쳐 놓은 아트워크": {
+      "en": "Artwork layering a lighthouse, a hiker with a backpack, birds in flight, a photographer, a cyclist, a child planting a tree, a small bear, a fox and a reindeer walking by the water into a single forest-landscape silhouette",
+      "ja": "灯台とバックパックを背負ったハイカー、飛び立つ鳥、写真を撮る人と自転車に乗る人、木を植える子ども、水辺を歩く小さな熊とキツネ、トナカイを、ひとつの森の地形のシルエットに重ねたアートワーク",
+      "zh": "将灯塔、背着背包的徒步者、飞起的鸟、拍照的人和骑车的人、种树的孩子，以及在水边散步的小熊、狐狸与驯鹿，叠加为一片森林地形剪影的艺术作品"
+    },
+    "등대에서 곰까지, 여우와 순록이 함께 걷는 숲과 물과 사람의 장면.": {
+      "en": "From lighthouse to bear: forest, water and people, with a fox and a reindeer walking together.",
+      "ja": "灯台から熊まで、キツネとトナカイが一緒に歩く森と水と人の情景。",
+      "zh": "从灯塔到小熊，狐狸与驯鹿一同走过的森林、水与人的景象。"
     }
   },
   "html": {

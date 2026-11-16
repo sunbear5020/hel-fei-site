@@ -444,17 +444,206 @@ code { font-family: var(--mono); font-size: 0.92em; }
 }
 .hero-foot-sep { color: var(--line); }
 
-/* Hero artwork — full-bleed living scene (assets/hero-art.svg, built by tools/build_hero_art.py) */
+/* Hero artwork — the lab's original banner photograph, kept exactly as drawn,
+   with light, mist and air moving over it. (assets/hero-silhouette.jpg is the
+   picture; every other element below is a transparent light layer on top.
+   Pointer & scroll parallax lives in app.js.) */
 .hero-banner {
   position: relative;
   margin: clamp(38px, 5.4vw, 76px) 0 0;
 }
-.hero-art {
+.hero-stage {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  aspect-ratio: 3200 / 1185;   /* the photo's own ratio — never cropped */
+  background: #2b4034;
+}
+.hero-plate {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+.hero-photo {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 8 / 3;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transform-origin: 50% 48%;
+  animation: heroBreath 42s cubic-bezier(0.4, 0, 0.6, 1) infinite alternate;
+  will-change: scale, translate;
+  -webkit-user-drag: none;
+  user-select: none;
 }
+/* a breath, not a zoom: 1.002 → 1.026 with a hair of drift */
+@keyframes heroBreath {
+  from { scale: 1.002; translate: -0.18% 0.22%; }
+  to   { scale: 1.027; translate: 0.26% -0.42%; }
+}
+
+.hero-fx {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+.hero-fx > *,
+.hero-fx > .hero-dust > i {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* Warm light spreading from the lighthouse lantern (photo: 6.9% · 18.5%) */
+.hero-glow {
+  left: -8.1%;
+  top: -22%;
+  width: 30%;
+  height: 81%;
+  mix-blend-mode: screen;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 233, 199, 0.5) 0, rgba(255, 208, 160, 0.26) 9%, rgba(255, 198, 150, 0.09) 22%, rgba(255, 198, 150, 0) 42%),
+    radial-gradient(circle at 50% 50%, rgba(255, 204, 162, 0.15) 0, rgba(255, 204, 162, 0) 64%);
+  animation: heroLamp 9.5s ease-in-out infinite;
+}
+@keyframes heroLamp {
+  0%, 100% { opacity: 0.72; }
+  17% { opacity: 0.94; }
+  34% { opacity: 0.66; }
+  52% { opacity: 0.88; }
+  71% { opacity: 0.7; }
+  86% { opacity: 0.97; }
+}
+
+/* The beam itself — a soft wash, never a hard flashlight edge */
+.hero-beam {
+  left: 6.9%;
+  top: 9.5%;
+  width: 46%;
+  height: 18%;
+}
+.hero-beam i {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 50%;
+  mix-blend-mode: screen;
+  background: linear-gradient(90deg, rgba(255, 234, 208, 0.4) 0%, rgba(255, 223, 188, 0.19) 26%, rgba(255, 217, 181, 0.06) 58%, rgba(255, 217, 181, 0) 88%);
+  clip-path: polygon(0 45%, 100% 4%, 100% 29%, 0 55%);
+  filter: blur(2.5px);
+  animation: heroBeam 24s ease-in-out infinite alternate;
+}
+@keyframes heroBeam {
+  from { rotate: -1.8deg; opacity: 0.5; }
+  50% { opacity: 0.78; }
+  to { rotate: 2.6deg; opacity: 0.58; }
+}
+
+/* Mist drifting over the forest floor and the water */
+.hero-mist {
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  background: radial-gradient(closest-side, rgba(236, 242, 230, 0.17), rgba(228, 237, 224, 0.07) 54%, rgba(228, 237, 224, 0) 78%);
+  filter: blur(12px);
+}
+.hero-mist--a {
+  left: 2%;
+  top: 64%;
+  width: 44%;
+  height: 22%;
+  animation: heroMistA 74s ease-in-out infinite alternate;
+}
+.hero-mist--b {
+  left: 34%;
+  top: 70%;
+  width: 50%;
+  height: 20%;
+  animation: heroMistB 94s ease-in-out infinite alternate;
+}
+.hero-mist--c {
+  left: 58%;
+  top: 77%;
+  width: 42%;
+  height: 18%;
+  animation: heroMistC 66s ease-in-out infinite alternate;
+}
+@keyframes heroMistA {
+  from { translate: -7% 1%; opacity: 0.5; }
+  55% { opacity: 0.92; }
+  to { translate: 9% -2%; opacity: 0.62; }
+}
+@keyframes heroMistB {
+  from { translate: 6% -1%; opacity: 0.42; }
+  60% { opacity: 0.82; }
+  to { translate: -8% 2%; opacity: 0.56; }
+}
+@keyframes heroMistC {
+  from { translate: -5% 2%; opacity: 0.55; }
+  50% { opacity: 0.88; }
+  to { translate: 7% -1%; opacity: 0.44; }
+}
+
+/* Water — glints sliding along the surface (photo: 33–69% · 87–93%) */
+.hero-water {
+  left: 31%;
+  top: 85.5%;
+  width: 40%;
+  height: 8.5%;
+  mix-blend-mode: screen;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 249, 233, 0) 0 3.4%, rgba(255, 249, 233, 0.5) 3.6% 4.1%, rgba(255, 249, 233, 0) 4.3% 9.6%),
+    radial-gradient(closest-side at 50% 55%, rgba(255, 245, 224, 0.2), rgba(255, 245, 224, 0) 72%);
+  background-size: 100% 26%, 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 16%, #000 84%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 16%, #000 84%, transparent);
+  animation: heroShimmer 34s ease-in-out infinite alternate;
+}
+@keyframes heroShimmer {
+  from { translate: -1.6% 0; opacity: 0.55; }
+  50% { opacity: 0.95; }
+  to { translate: 1.6% 0; opacity: 0.7; }
+}
+
+/* Air — a few grains of light floating in the sky */
+.hero-dust { inset: 0; }
+.hero-dust > i {
+  width: max(1.5px, 0.16%);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  background: radial-gradient(circle, rgba(255, 248, 230, 0.95), rgba(255, 240, 208, 0.35) 46%, rgba(255, 240, 208, 0) 72%);
+  animation-name: heroDust;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes heroDust {
+  from { translate: -3px 10px; opacity: 0.14; }
+  45% { opacity: 0.62; }
+  to { translate: 5px -26px; opacity: 0.1; }
+}
+
+/* One slow sheen across the upper air, like weather passing */
+.hero-sheen {
+  inset: 0;
+  mix-blend-mode: screen;
+  background: linear-gradient(101deg, rgba(255, 255, 255, 0) 36%, rgba(255, 255, 255, 0.13) 47%, rgba(255, 255, 255, 0) 58%);
+  background-size: 46% 100%;
+  background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(180deg, #000 0, #000 58%, transparent 82%);
+  mask-image: linear-gradient(180deg, #000 0, #000 58%, transparent 82%);
+  opacity: 0.75;
+  animation: heroSheen 52s ease-in-out infinite;
+}
+@keyframes heroSheen {
+  from { background-position: -50% 0; }
+  60% { background-position: 150% 0; }
+  to { background-position: 150% 0; }
+}
+
 .hero-caption {
   display: flex;
   flex-wrap: wrap;
@@ -2064,10 +2253,13 @@ code { font-family: var(--mono); font-size: 0.92em; }
 }
 
 @media (max-width: 760px) {
-  .hero-art {
-    aspect-ratio: 2.4 / 1;
-    min-height: 132px;
+  .hero-stage {
+    /* same ratio as the photo, so the fox, the reindeer and the lighthouse
+       stay exactly where they are drawn at every width */
+    aspect-ratio: 3200 / 1185;
   }
+  .hero-mist { filter: blur(8px); }
+  .hero-dust > i { width: max(1.4px, 0.42%); }
 }
 
 @media (max-width: 520px) {
@@ -2093,6 +2285,8 @@ code { font-family: var(--mono); font-size: 0.92em; }
     transition-duration: 0.001ms !important;
   }
   .reveal { opacity: 1; transform: none; }
+  .hero-photo { animation: none; scale: 1.002; translate: 0 0; }
+  .hero-glow, .hero-beam i, .hero-mist, .hero-water, .hero-dust > i, .hero-sheen { animation: none; }
 }
 
 @media print {
