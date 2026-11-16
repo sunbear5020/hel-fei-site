@@ -148,7 +148,7 @@ ENTRIES = [
     ("점수 모델", "Scoring model", "スコアモデル", "评分模型"),
     ("연계 데이터", "Linked data", "連携データ", "关联数据"),
     ("산림청 숲나들e · 임상도 · 기상청 단기예보 · 에어코리아", "Korea Forest Service Soopnadeul-e · stand maps · KMA short-range forecast · AirKorea",
-     "山林庁スプナドゥレ・林況図・気象庁短期予報・エアコリア", "山林厅숲나들e·林相图·气象厅短期预报·AirKorea"),
+     "山林庁スプナドゥレ・林況図・気象庁短期予報・エアコリア", "山林厅 Soopnadeul-e·林相图·气象厅短期预报·AirKorea"),
     ("프로토타입 체험하기", "Open the prototype", "試作サービスを体験する", "体验原型服务"),
     ("본 화면은 연구실 시연용 프로토타입입니다. 점수와 추천 문구는 공개 데이터에 기반한 가중치 모델의 계산 결과이며, 실제 예약·운영 정보는 방문 전 각 시설에 확인해야 합니다.",
      "This screen is a demonstration prototype of the lab. Scores and recommendation text are outputs of a weighted model built on open data; check actual booking and operating information with each facility before visiting.",

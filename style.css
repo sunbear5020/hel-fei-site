@@ -65,6 +65,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* Japanese and Chinese break between characters; keep-all is for Korean only. */
+html[lang="ja"] body,
+html[lang="zh-Hans"] body { word-break: normal; }
+
 img, svg { max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 p { margin: 0 0 1em; }

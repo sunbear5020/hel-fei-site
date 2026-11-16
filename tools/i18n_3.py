@@ -4,7 +4,7 @@
 ENTRIES = [
     # ---- gallery ----
     ("Lab life", "Lab life", "研究室の日常", "实验室日常"),
-    ("연구실의 순간들", "Moments from the lab", "研究室の瞬間", "实验室的瞬间"),
+    ("연구실의 순간들", "Moments from the lab", "研究室のひととき", "实验室的瞬间"),
     ("학회와 현장에서 기록한 사진입니다. 사진을 누르면 크게 볼 수 있고, 좌우 방향키로 넘겨 볼 수 있습니다.",
      "Photographs from conferences and fieldwork. Click a photo to enlarge it, and use the left and right arrow keys to move through them.",
      "学会や現場で記録した写真です。写真を押すと大きく表示され、左右の矢印キーで送れます。",

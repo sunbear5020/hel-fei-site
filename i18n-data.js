@@ -970,7 +970,7 @@ window.FEI_I18N_DATA = {
     "산림청 숲나들e · 임상도 · 기상청 단기예보 · 에어코리아": {
       "en": "Korea Forest Service Soopnadeul-e · stand maps · KMA short-range forecast · AirKorea",
       "ja": "山林庁スプナドゥレ・林況図・気象庁短期予報・エアコリア",
-      "zh": "山林厅숲나들e·林相图·气象厅短期预报·AirKorea"
+      "zh": "山林厅 Soopnadeul-e·林相图·气象厅短期预报·AirKorea"
     },
     "프로토타입 체험하기": {
       "en": "Open the prototype",
@@ -1204,7 +1204,7 @@ window.FEI_I18N_DATA = {
     },
     "연구실의 순간들": {
       "en": "Moments from the lab",
-      "ja": "研究室の瞬間",
+      "ja": "研究室のひととき",
       "zh": "实验室的瞬间"
     },
     "학회와 현장에서 기록한 사진입니다. 사진을 누르면 크게 볼 수 있고, 좌우 방향키로 넘겨 볼 수 있습니다.": {
@@ -1529,8 +1529,8 @@ window.FEI_I18N_DATA = {
     },
     "찾아오시는 길": {
       "en": "Getting here",
-      "ja": "アクセス",
-      "zh": "来访路线"
+      "ja": "行き方",
+      "zh": "到达方式"
     },
     "가좌캠퍼스 정문 방면": {
       "en": "Toward the main gate of Gajwa Campus",
