@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+
+# NAVER (Yeti), Google, Bing, Daum all follow the rules above.
+Sitemap: https://sunbear5020.github.io/hel-fei-site/sitemap.xml

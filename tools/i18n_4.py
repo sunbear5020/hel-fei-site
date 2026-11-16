@@ -177,6 +177,38 @@ EXTRA += [
 ]
 
 EXTRA += [
+    # SEO head (title · description · keywords · OG/Twitter cards)
+    ("경상국립대학교 환경산림과학부 산림환경자원학과 김건우 교수의 인간환경연구실(FEI · HEL · Formula for Environmental Intelligence, Human & Environmental Lab). 산림치유, 산림환경·미기상 공간분석, 가명정보 결합 연구와 대국민 산림복지 서비스 「숲결」을 연구합니다.",
+     "The Human & Environmental Lab of Professor Geonwoo Kim, Department of Forest Environmental Resources, Gyeongsang National University (FEI · HEL · Formula for Environmental Intelligence, Human & Environmental Lab). We study forest healing, forest environment and microclimate spatial analysis, pseudonymized data linkage, and the public forest-welfare service Soopgyeol.",
+     "慶尚国立大学校 環境林産科学部 森林環境資源学科 金建佑教授の人間環境研究室（FEI · HEL · Formula for Environmental Intelligence, Human & Environmental Lab）。森林癒し、森林環境・微気象の空間解析、仮名情報の結合研究、国民向け森林福祉サービス「森結（スプキョル）」を研究しています。",
+     "庆尚国立大学环境林产科学部森林环境资源学科金建佑教授的人类环境研究室（FEI · HEL · Formula for Environmental Intelligence, Human & Environmental Lab）。研究森林疗愈、森林环境与微气象空间分析、假名信息结合，以及面向公众的森林福祉服务「森结」。"),
+    ("경상국립대학교, 김건우, 김건우 교수, 경상국립대 김건우, 산림환경자원학과, 환경산림과학부, 인간환경연구실, FEI · HEL, FEI, HEL, 산림치유, 숲결, 산림복지, 산림환경, 미기상, 산림치유 효과, 가명정보 결합, 경상국립대학교 산림환경자원학과 교수",
+     "Gyeongsang National University, Geonwoo Kim, Professor Geonwoo Kim, Department of Forest Environmental Resources, College of Agriculture and Life Sciences, Human & Environmental Lab, FEI · HEL, forest healing, Soopgyeol, forest welfare, forest environment, microclimate, pseudonymized data linkage",
+     "慶尚国立大学校, 金建佑, 金建佑教授, 森林環境資源学科, 環境林産科学部, 人間環境研究室, FEI · HEL, 森林癒し, 森結, 森林福祉, 森林環境, 微気象, 仮名情報の結合",
+     "庆尚国立大学, 金建佑, 金建佑教授, 森林环境资源学科, 环境林产科学部, 人类环境研究室, FEI · HEL, 森林疗愈, 森结, 森林福祉, 森林环境, 微气象, 假名信息结合"),
+    ("김건우 (Geonwoo Kim), FEI · HEL, Gyeongsang National University",
+     "Geonwoo Kim, FEI · HEL, Gyeongsang National University",
+     "金建佑 (Geonwoo Kim), FEI · HEL, 慶尚国立大学校",
+     "金建佑 (Geonwoo Kim), FEI · HEL, 庆尚国立大学"),
+    ("FEI · HEL 인간환경연구실 · 경상국립대학교",
+     "FEI · HEL Human & Environmental Lab · Gyeongsang National University",
+     "FEI · HEL 人間環境研究室 · 慶尚国立大学校",
+     "FEI · HEL 人类环境研究室 · 庆尚国立大学"),
+    ("경상국립대학교 김건우 교수 · FEI · HEL 인간환경연구실",
+     "Professor Geonwoo Kim, Gyeongsang National University · FEI · HEL Human & Environmental Lab",
+     "慶尚国立大学校 金建佑教授 · FEI · HEL 人間環境研究室",
+     "庆尚国立大学金建佑教授 · FEI · HEL 人类环境研究室"),
+    ("등대에서 곰과 여우, 순록까지 이어지는 FEI · HEL 연구실 실루엣 배너",
+     "The FEI · HEL silhouette banner: from the lighthouse to the bear, the fox and the reindeer",
+     "灯台から熊、キツネ、トナカイへと続く FEI · HEL 研究室のシルエットバナー",
+     "从灯塔到小熊、狐狸与驯鹿的 FEI · HEL 研究室剪影横幅"),
+    ("“인간은 환경의 일부” — 자연에는 공식이 있습니다. 경상국립대학교 FEI · HEL 인간환경연구실.",
+     "“Humans are a part of the environment.” Nature has a formula. FEI · HEL, Gyeongsang National University.",
+     "「人間は環境の一部」——自然には公式があります。慶尚国立大学校 FEI · HEL 人間環境研究室。",
+     "“人是环境的一部分。”自然之中自有公式。庆尚国立大学 FEI · HEL 人类环境研究室。"),
+]
+
+EXTRA += [
     # hero banner (original lab silhouette with the fox and reindeer added)
     ("등대와 배낭을 멘 하이커, 날아오르는 새, 사진을 찍는 사람과 자전거를 타는 사람, "
      "나무를 심는 아이, 물가를 걷는 작은 곰과 여우, 순록을 하나의 숲 지형 실루엣으로 겹쳐 놓은 아트워크",
