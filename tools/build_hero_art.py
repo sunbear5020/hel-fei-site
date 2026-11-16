@@ -212,7 +212,7 @@ def seedling(x, y, s=1.0):
 def bear(x, y, s=1.0):
     t = "translate(%.1f %.1f) scale(%.3f)" % (x, y, s)
     return (
-        '<g class="art-bear" transform="%s">'
+        '<g transform="%s"><g class="art-bear">'
         '<circle cx="-10" cy="-57" r="5.6" fill="%s"/>'
         '<circle cx="10" cy="-57" r="5.6" fill="%s"/>'
         '<circle cx="-10" cy="-57" r="2.4" fill="%s" opacity=".5"/>'
@@ -226,7 +226,7 @@ def bear(x, y, s=1.0):
         '<ellipse cx="4" cy="-41" rx="5.6" ry="4.4" fill="%s"/>'
         '<circle cx="6.4" cy="-42" r="1.7" fill="%s"/>'
         '<circle cx="1.4" cy="-50" r="1.5" fill="%s"/>'
-        "</g>"
+        "</g></g>"
     ) % (t, CLAY, CLAY, SAND_DEEP, SAND_DEEP, CLAY, CLAY, CLAY, CLAY, CLAY, CLAY, CREAM, INK, INK)
 
 
