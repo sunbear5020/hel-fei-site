@@ -359,7 +359,7 @@ def build():
 
     add('<g class="art-layer" data-depth="1.08">')
     add('<rect x="300" y="%d" width="900" height="%d" fill="url(#heroWater)"/>' % (HORIZON, H - HORIZON))
-    add('<path d="M 300 %d H 1200" stroke="%s" stroke-width="1" opacity=".3"/>' % (HORIZON, CREAM))
+    add('<path d="M 300 %d H 1200" stroke="%s" stroke-width="1" opacity=".16"/>' % (HORIZON, CREAM))
     add('<rect x="300" y="%d" width="900" height="34" fill="url(#heroWaterHaze)"/>' % HORIZON)
     add('<ellipse cx="420" cy="512" rx="230" ry="20" fill="url(#heroReflect)"/>')
     add('<g class="art-water" stroke-linecap="round" fill="none">')
@@ -433,9 +433,9 @@ def build():
     # lighthouse
     add('<g class="art-lighthouse">')
     add('<g class="art-beam" style="mix-blend-mode:screen">'
-        '<path d="M 126 191 L 600 158 L 600 224 Z" fill="%s" fill-opacity=".2" mask="url(#heroBeamMask)"/>'
-        '<path d="M 126 191 L 600 174 L 600 208 Z" fill="%s" fill-opacity=".14" mask="url(#heroBeamMask)"/>'
-        '<path d="M 126 191 L -340 162 L -340 220 Z" fill="%s" fill-opacity=".12" mask="url(#heroBeamMaskL)"/></g>'
+        '<path d="M 126 191 L 600 158 L 600 224 Z" fill="%s" fill-opacity=".26" mask="url(#heroBeamMask)"/>'
+        '<path d="M 126 191 L 600 174 L 600 208 Z" fill="%s" fill-opacity=".18" mask="url(#heroBeamMask)"/>'
+        '<path d="M 126 191 L -340 162 L -340 220 Z" fill="%s" fill-opacity=".16" mask="url(#heroBeamMaskL)"/></g>'
         % ("#FFE2CB", "#FFE2CB", "#FFE2CB"))
     add('<circle cx="126" cy="191" r="62" fill="url(#heroLamp)" class="art-lamp-glow"/>')
     add('<path d="M 104 338 L 112 210 L 140 210 L 148 338 Z" fill="%s"/>' % CREAM)
