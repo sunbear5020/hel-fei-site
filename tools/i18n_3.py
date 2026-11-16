@@ -103,7 +103,6 @@ ENTRIES = [
     ("캠퍼스맵 보기", "Campus map", "キャンパスマップ", "校园地图"),
     ("네이버 지도", "Naver Map", "Naverマップ", "Naver地图"),
     ("카카오맵", "Kakao Map", "Kakaoマップ", "Kakao地图"),
-    ("찾아오시는 길", "Getting here", "アクセス", "来访路线"),
     ("가좌캠퍼스 정문 방면", "Toward the main gate of Gajwa Campus", "加佐キャンパス正門方面", "加佐校区正门方向"),
     ("진주 시외·고속버스 이용 시 개양(정촌초교) 정류장에서 시내버스 120·121·123·126번으로 환승합니다.",
      "If you arrive by intercity or express bus, transfer at Gaeyang (Jeongchon Elementary School) stop to city buses 120, 121, 123 or 126.",

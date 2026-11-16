@@ -1527,11 +1527,6 @@ window.FEI_I18N_DATA = {
       "ja": "Kakaoマップ",
       "zh": "Kakao地图"
     },
-    "찾아오시는 길": {
-      "en": "Getting here",
-      "ja": "行き方",
-      "zh": "到达方式"
-    },
     "가좌캠퍼스 정문 방면": {
       "en": "Toward the main gate of Gajwa Campus",
       "ja": "加佐キャンパス正門方面",
@@ -2111,6 +2106,11 @@ window.FEI_I18N_DATA = {
       "en": "2020 · 1 paper",
       "ja": "2020年 1編",
       "zh": "2020年 1篇"
+    },
+    "찾아오시는 길": {
+      "en": "Getting here",
+      "ja": "行き方",
+      "zh": "到达方式"
     }
   },
   "html": {
