@@ -530,15 +530,15 @@ code { font-family: var(--mono); font-size: 0.92em; }
   inset: 0;
   transform-origin: 0 50%;
   mix-blend-mode: screen;
-  background: linear-gradient(90deg, rgba(255, 234, 208, 0.4) 0%, rgba(255, 223, 188, 0.19) 26%, rgba(255, 217, 181, 0.06) 58%, rgba(255, 217, 181, 0) 88%);
-  clip-path: polygon(0 45%, 100% 4%, 100% 29%, 0 55%);
-  filter: blur(2.5px);
+  background: linear-gradient(90deg, rgba(255, 234, 208, 0.34) 0%, rgba(255, 223, 188, 0.15) 26%, rgba(255, 217, 181, 0.05) 58%, rgba(255, 217, 181, 0) 88%);
+  clip-path: polygon(0 44%, 100% 2%, 100% 32%, 0 56%);
+  filter: blur(5px);
   animation: heroBeam 24s ease-in-out infinite alternate;
 }
 @keyframes heroBeam {
-  from { rotate: -1.8deg; opacity: 0.5; }
-  50% { opacity: 0.78; }
-  to { rotate: 2.6deg; opacity: 0.58; }
+  from { rotate: -1.6deg; opacity: 0.4; }
+  50% { opacity: 0.62; }
+  to { rotate: 2.4deg; opacity: 0.46; }
 }
 
 /* Mist drifting over the forest floor and the water */
