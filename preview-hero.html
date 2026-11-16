@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<title>preview frame</title>
+<style>
+  html, body { margin: 0; background: #ddd; font: 12px/1.4 system-ui, sans-serif; }
+  .frame { background: #fff; margin: 8px; box-shadow: 0 0 0 1px #999; }
+  .label { padding: 4px 8px; background: #222; color: #fff; }
+  iframe { border: 0; display: block; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="label">1440 × 780</div>
+    <iframe id="d" src="./index.html" width="1440" height="780"></iframe>
+  </div>
+  <div class="frame">
+    <div class="label">390 × 780</div>
+    <iframe id="m" src="./index.html" width="390" height="780"></iframe>
+  </div>
+  <script>
+    function focusHero(id) {
+      var f = document.getElementById(id);
+      try {
+        var doc = f.contentDocument;
+        var banner = doc.querySelector(".hero-banner");
+        if (banner) f.contentWindow.scrollTo(0, banner.offsetTop - 24);
+      } catch (e) {}
+    }
+    ["d", "m"].forEach(function (id) {
+      var f = document.getElementById(id);
+      f.addEventListener("load", function () { setTimeout(function () { focusHero(id); }, 400); });
+    });
+  </script>
+</body>
+</html>
