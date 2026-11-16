@@ -112,6 +112,29 @@ python3 tools/add-gallery-photo.py ~/Desktop/photo.jpg \
 2. Branch를 **main**, 폴더를 **/(root)** 로 지정하고 저장합니다.
 3. 잠시 후 `https://sunbear5020.github.io/hel-fei-site/` 에서 확인할 수 있습니다.
 
+## 다국어 (KR · EN · JP · ZH)
+
+헤더 오른쪽의 `KR EN JP ZH` 버튼으로 전환합니다. 선택은 `localStorage`(`fei-hel-lang`)에 남고,
+`?lang=ko|en|ja|zh` 로 바로 열 수도 있습니다. `<html lang>`도 함께 바뀝니다.
+
+| 파일 | 역할 |
+| --- | --- |
+| `i18n.js` | 언어 전환 엔진(문자열·속성·블록 번역, 국문 복원) |
+| `i18n-data.js` | 번역 사전 — **직접 고치지 말고** 아래 원본을 고친 뒤 다시 생성 |
+| `tools/i18n_1.py` ~ `i18n_4.py` | 번역 원본(국문 원문 + EN/JA/ZH) |
+| `tools/build_i18n.py` | `i18n-data.js` 생성 · 번역 누락 점검 |
+| `data/members-i18n.js` | 구성원 소개글(국문은 `data/members.js`)의 EN/JA/ZH |
+
+문구를 고칠 때:
+
+```bash
+python3 tools/build_i18n.py --check   # 번역 없는 국문 문자열 확인 후 i18n-data.js 재생성
+```
+
+`index.html`의 국문을 고치면 같은 문장을 `tools/i18n_*.py`에서도 찾아 고쳐 주세요
+(`--check`가 누락된 문장을 알려 줍니다). 일본어·중국어는 `word-break: normal`로
+글자 단위 줄바꿈을 쓰고, 국문은 기존 `keep-all`을 유지합니다.
+
 ## 프로젝트
 
 - **숲결 (Soopgyeol)** — 대국민 산림치유 맞춤 추천 프로토타입
