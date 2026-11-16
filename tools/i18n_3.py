@@ -83,7 +83,7 @@ ENTRIES = [
 
     # ---- contact ----
     ("Contact & location", "Contact & location", "連絡先・アクセス", "联系方式与来访"),
-    ("연락처", "Contact", "連絡先", "联系方式"),
+    ("연락처", "Contact details", "連絡先", "联系方式"),
     ("이메일", "Email", "メール", "邮箱"),
     ("전화", "Phone", "電話", "电话"),
     ("주소", "Address", "住所", "地址"),

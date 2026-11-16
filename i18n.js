@@ -379,8 +379,9 @@
 
   function boot() {
     bindSwitcher();
-    current = initialLang();
-    setLang(current, { url: false });
+    var start = initialLang();
+    current = "ko";
+    setLang(start, { url: false });
     watch();
   }
 

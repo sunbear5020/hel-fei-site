@@ -510,7 +510,7 @@ window.FEI_I18N_DATA = {
     "자연기반 사회적 처방(Social Prescribing)과 생활권 산림복지 서비스의 설계, 산림치유 인력 제도와 프로그램의 품질 관리까지 연구의 끝을 제도와 서비스로 맺습니다. 산림복지단지 조성 연구와 치유의 숲 조성·운영 연구, 자연휴양림과 치유의 숲의 조성 타당성평가, 운영모델과 성과평가 체계가 이 축의 중심입니다. 산림복지진흥계획의 산림휴양·산림치유 정책을 수립하고 산림치유법 제정을 추진하는 일도 여기서 합니다. 시설 정보와 기상 데이터를 엮은 추천 도구도 이 축에서 나옵니다.": {
       "en": "From nature-based social prescribing and the design of everyday-access forest welfare services to the workforce system for forest healing and quality management of programmes, this axis ties the research to institutions and services. Studies on forest welfare complexes and on creating and operating healing forests, feasibility assessment for recreational forests and healing forests, operating models and performance-evaluation frameworks sit at its centre. So do establishing forest recreation and healing policy within the forest welfare promotion plan, and work toward enacting a forest healing act. Recommendation tools that knit facility information together with weather data also come from this axis.",
       "ja": "自然基盤の社会的処方（Social Prescribing）と生活圏での森林福祉サービスの設計、森林癒し人材の制度とプログラムの品質管理まで、研究の終わりを制度とサービスで結びます。森林福祉団地の整備研究と癒しの森の整備・運営研究、自然休養林と癒しの森の整備妥当性評価、運営モデルと成果評価の体系がこの軸の中心です。森林福祉振興計画における森林休養・森林癒し政策の策定と森林癒し法の制定の推進もここで行います。施設情報と気象データを結んだ推薦ツールもこの軸から生まれます。",
-      "zh": "从基于自然的社會处方（Social Prescribing）与生活圈森林福祉服务的设计，到森林疗愈人才制度与项目质量管理，这一支轴把研究落在制度与服务上。森林福祉园区营造研究、疗愈林的营造与运营研究、自然休养林与疗愈林的营造可行性评估、运营模型与成效评价体系是其核心。森林福祉振兴计划中的森林休养与疗愈政策制定、以及推动森林疗愈法立法，也在这里进行。把设施信息与气象数据结合起来的推荐工具同样出自这一支轴。"
+      "zh": "从基于自然的社会处方（Social Prescribing）与生活圈森林福祉服务的设计，到森林疗愈人才制度与项目质量管理，这一支轴把研究落在制度与服务上。森林福祉园区营造研究、疗愈林的营造与运营研究、自然休养林与疗愈林的营造可行性评估、运营模型与成效评价体系是其核心。森林福祉振兴计划中的森林休养与疗愈政策制定、以及推动森林疗愈法立法，也在这里进行。把设施信息与气象数据结合起来的推荐工具同样出自这一支轴。"
     },
     "산림복지단지·치유의 숲": {
       "en": "Forest welfare complexes & healing forests",
@@ -1453,7 +1453,7 @@ window.FEI_I18N_DATA = {
       "zh": "联系方式与来访"
     },
     "연락처": {
-      "en": "Contact",
+      "en": "Contact details",
       "ja": "連絡先",
       "zh": "联系方式"
     },
@@ -2096,6 +2096,21 @@ window.FEI_I18N_DATA = {
       "en": "Filter publications by year",
       "ja": "年別に論文を見る",
       "zh": "按年份查看论文"
+    },
+    "What we study": {
+      "en": "What we study",
+      "ja": "私たちが研究すること",
+      "zh": "我们研究什么"
+    },
+    "Why it matters": {
+      "en": "Why it matters",
+      "ja": "なぜ重要なのか",
+      "zh": "为何重要"
+    },
+    "2020년 1편": {
+      "en": "2020 · 1 paper",
+      "ja": "2020年 1編",
+      "zh": "2020年 1篇"
     }
   },
   "html": {

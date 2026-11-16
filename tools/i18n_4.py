@@ -156,3 +156,14 @@ EXTRA = [
     ("전체", "All", "すべて", "全部"),
     ("특허", "Patents", "特許", "专利"),
 ]
+
+EXTRA += [
+    # hero manifesto labels (English in the Korean page, translated for JA/ZH)
+    ("What we study", "What we study", "私たちが研究すること", "我们研究什么"),
+    ("Why it matters", "Why it matters", "なぜ重要なのか", "为何重要"),
+]
+
+EXTRA += [
+    # singular counts
+    ("2020년 1편", "2020 · 1 paper", "2020年 1編", "2020年 1篇"),
+]
