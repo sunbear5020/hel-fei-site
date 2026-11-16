@@ -1000,6 +1000,76 @@
     updateComposer();
   }
 
+
+  /* =========================================================
+     Hero artwork — pointer + scroll parallax
+     Each .art-layer carries data-depth; the ambient motion of
+     the scene itself is CSS inside the SVG.
+     ========================================================= */
+
+  var heroArt = doc.querySelector(".hero-art");
+
+  if (heroArt && !reduceMotion) {
+    var artLayers = Array.prototype.slice.call(heroArt.querySelectorAll(".art-layer"));
+    var artX = 0;
+    var artY = 0;
+    var artTX = 0;
+    var artTY = 0;
+    var artInView = true;
+    var artFrame = null;
+
+    var artTick = function () {
+      artFrame = null;
+      artX += (artTX - artX) * 0.08;
+      artY += (artTY - artY) * 0.08;
+      var rect = heroArt.getBoundingClientRect();
+      var scrollPush = 0;
+      if (rect.height) {
+        var centre = rect.top + rect.height / 2;
+        scrollPush = (centre - window.innerHeight / 2) / window.innerHeight;
+        scrollPush = Math.max(-1.4, Math.min(1.4, scrollPush)) * -1;
+      }
+      artLayers.forEach(function (layer) {
+        var depth = parseFloat(layer.getAttribute("data-depth") || "1");
+        var x = artX * depth * 7;
+        var y = artY * depth * 3.4 + scrollPush * depth * 6;
+        layer.style.transform = "translate(" + x.toFixed(2) + "px," + y.toFixed(2) + "px)";
+      });
+      if (Math.abs(artTX - artX) > 0.002 || Math.abs(artTY - artY) > 0.002) {
+        artFrame = window.requestAnimationFrame(artTick);
+      }
+    };
+
+    var artKick = function () {
+      if (artFrame == null && artInView) artFrame = window.requestAnimationFrame(artTick);
+    };
+
+    window.addEventListener(
+      "pointermove",
+      function (event) {
+        if (!artInView) return;
+        var rect = heroArt.getBoundingClientRect();
+        if (!rect.width || !rect.height) return;
+        artTX = Math.max(-1, Math.min(1, ((event.clientX - rect.left) / rect.width - 0.5) * 2));
+        artTY = Math.max(-1, Math.min(1, ((event.clientY - rect.top) / rect.height - 0.5) * 2));
+        artKick();
+      },
+      { passive: true }
+    );
+
+    window.addEventListener("scroll", artKick, { passive: true });
+
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(
+        function (entries) {
+          artInView = entries[0].isIntersecting;
+          if (artInView) artKick();
+        },
+        { rootMargin: "120px" }
+      ).observe(heroArt);
+    }
+  }
+
   /* ---------- language change ---------- */
 
   doc.addEventListener("fei:i18nchange", function () {

@@ -16,14 +16,28 @@ app.js                내비게이션, 스크롤 리빌, 논문·연구과제 �
                       소개글 작성기, 사진첩과 라이트박스 (의존성 없음)
 data/members.js       구성원 소개 데이터 (아래 '내 소개글 고치기')
 gallery.json          사진첩 목록 (아래 '사진 추가하기')
-assets/               로고, 첫 화면 아트워크(hero-silhouette.jpg), 구성원 사진(members/),
+assets/               로고, 첫 화면 아트워크(hero-art.svg · hero-silhouette.jpg), 구성원 사진(members/),
                       사진첩(gallery/thumb · gallery/full)
-tools/                사진첩에 사진을 넣는 도우미 스크립트
+tools/                첫 화면 아트워크·다국어 자료를 만드는 스크립트, 사진첩 도우미
 ```
 
-> `assets/hero-silhouette.jpg` 는 연구실이 받은 배너용 PDF(등대·하이커·새·사진가·자전거·나무 심는 아이 실루엣)를
-> 사이트 팔레트에 맞춰 다시 그린 첫 화면 아트워크입니다. 곰 실루엣은 SVG Repo의
-> 'Bear Side View Silhouette'(무료 배포 벡터)를 사용했습니다.
+### 첫 화면 아트워크 (움직이는 장면)
+
+첫 화면 아래쪽 아트워크는 정지 이미지가 아니라 **SVG 장면**입니다. 등고선·숲 지형·등대 불빛·
+배낭 멘 하이커·사진가·자전거·나무 심는 아이·새·물결, 그리고 연구실 시그니처인 작은 곰이
+크림 · 샌드 · 딥 차콜 · 테라코타 팔레트로 그려져 있고, 안개와 물결·새·등대 빛이 천천히 움직입니다.
+마우스를 움직이거나 스크롤하면 층마다 조금씩 다르게 반응합니다(패럴랙스).
+`prefers-reduced-motion` 설정에서는 모든 움직임이 멈춘 정지 장면으로 보입니다.
+
+```
+tools/build_hero_art.py    장면을 다시 생성해 index.html(<!-- hero-art:start --> ~ end)과
+                           assets/hero-art.svg 에 함께 기록합니다.
+python3 tools/build_hero_art.py
+```
+
+색·구도·요소를 바꾸려면 이 스크립트를 고치고 다시 실행하면 페이지와 SVG가 함께 갱신됩니다.
+`assets/hero-silhouette.jpg` 는 연구실이 받은 배너용 PDF(등대·하이커·새·사진가·자전거·나무 심는 아이
+실루엣)를 바탕으로 만든 이전 정지 아트워크로, 원본 참고용으로 남겨 두었습니다.
 
 ## 내 소개글 고치기 (구성원용)
 
