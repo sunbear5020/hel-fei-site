@@ -202,6 +202,60 @@ code { font-family: var(--mono); font-size: 0.92em; }
 .nav-toggle[aria-expanded="true"] span:first-child { transform: translateY(2.5px) rotate(45deg); }
 .nav-toggle[aria-expanded="true"] span:last-child { transform: translateY(-2.5px) rotate(-45deg); }
 
+/* ---------------- Language switch ---------------- */
+
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 1.8vw, 24px);
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  flex: none;
+}
+.lang-switch button {
+  position: relative;
+  appearance: none;
+  padding: 6px 5px;
+  margin: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  font-size: 10.5px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.11em;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.2s var(--ease);
+}
+.lang-switch button::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 1px;
+  height: 1px;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.28s var(--ease);
+}
+.lang-switch button:hover { color: var(--ink); }
+.lang-switch button.is-active { color: var(--ink); }
+.lang-switch button.is-active::after { transform: scaleX(1); }
+
+@media (min-width: 781px) {
+  .lang-switch {
+    padding-left: clamp(10px, 1.4vw, 18px);
+    margin-left: 2px;
+    border-left: 1px solid var(--line-soft);
+  }
+}
+
 /* ---------------- Type helpers ---------------- */
 
 .eyebrow {
@@ -1931,10 +1985,15 @@ code { font-family: var(--mono); font-size: 0.92em; }
 @media (max-width: 900px) {
   .nav { gap: 10px; }
   .nav > a { font-size: 12.5px; }
+  .header-end { gap: 10px; }
+  .lang-switch button { font-size: 10px; padding: 6px 4px; }
+  .lang-switch button::after { left: 4px; right: 4px; }
 }
 
 @media (max-width: 780px) {
-  .header-bar { height: 64px; }
+  .header-bar { height: 64px; gap: 12px; }
+  .header-end { gap: 8px; }
+  .lang-switch { margin-right: 2px; }
   .hero { padding-top: calc(64px + 44px); }
   .nav-toggle { display: block; }
   .nav {

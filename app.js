@@ -16,6 +16,25 @@
     ? window.matchMedia("(prefers-reduced-motion: reduce)").matches
     : false;
 
+  /* ---------- Language ---------- */
+
+  function LANG() {
+    return window.FEI_HEL_i18n ? window.FEI_HEL_i18n.lang() : "ko";
+  }
+
+  function T(text) {
+    return window.FEI_HEL_i18n ? window.FEI_HEL_i18n.t(text) : text;
+  }
+
+  function localized(member) {
+    var lang = LANG();
+    if (lang === "ko" || !member) return null;
+    if (member.i18n && member.i18n[lang]) return member.i18n[lang];
+    var table = window.LAB_MEMBERS_I18N || {};
+    var entry = member.id ? table[member.id] : null;
+    return entry && entry[lang] ? entry[lang] : null;
+  }
+
   /* ---------- Toast ---------- */
 
   var toast = doc.getElementById("toast");
@@ -78,7 +97,7 @@
   function closeNav() {
     if (!toggle || !nav) return;
     toggle.setAttribute("aria-expanded", "false");
-    toggle.setAttribute("aria-label", "메뉴 열기");
+    toggle.setAttribute("aria-label", T("메뉴 열기"));
     nav.classList.remove("is-open");
     doc.body.style.overflow = "";
   }
@@ -90,7 +109,7 @@
         closeNav();
       } else {
         toggle.setAttribute("aria-expanded", "true");
-        toggle.setAttribute("aria-label", "메뉴 닫기");
+        toggle.setAttribute("aria-label", T("메뉴 닫기"));
         nav.classList.add("is-open");
         doc.body.style.overflow = "hidden";
       }
@@ -244,7 +263,7 @@
     copyBtn.addEventListener("click", function () {
       var mail = copyBtn.getAttribute("data-mail") || "";
       if (!mail) return;
-      copyText(mail, "이메일 주소를 복사했습니다", "복사하지 못했습니다. 주소를 직접 선택해 주세요");
+      copyText(mail, T("이메일 주소를 복사했습니다"), T("복사하지 못했습니다. 주소를 직접 선택해 주세요"));
     });
   }
 
@@ -297,9 +316,9 @@
       lbImage.src = photo.src || photo.thumb;
       lbImage.alt = photo.alt || photo.caption || "";
     }
-    if (lbCaption) lbCaption.textContent = photo.caption || "";
+    if (lbCaption) lbCaption.textContent = photo.caption ? T(photo.caption) : "";
     if (lbCount) lbCount.textContent = lbPos + 1 + " / " + lbList.length;
-    if (lbTag) lbTag.textContent = photo.tag || "";
+    if (lbTag) lbTag.textContent = photo.tag ? T(photo.tag) : "";
   }
 
   function openLightbox(index) {
@@ -336,7 +355,9 @@
     });
 
     var html =
-      '<button class="gallery-filter-btn is-active" type="button" data-tag="all" aria-pressed="true">전체<span>' +
+      '<button class="gallery-filter-btn is-active" type="button" data-tag="all" aria-pressed="true">' +
+      esc(T("전체")) +
+      "<span>" +
       photos.length +
       "</span></button>";
     order.forEach(function (tag) {
@@ -344,14 +365,63 @@
         '<button class="gallery-filter-btn" type="button" data-tag="' +
         esc(tag) +
         '" aria-pressed="false">' +
-        esc(tag) +
+        esc(T(tag)) +
         "<span>" +
         counts[tag] +
         "</span></button>";
     });
     galleryFilter.innerHTML = html;
     galleryFilter.hidden = false;
+  }
 
+  function renderGallery() {
+    if (!galleryGrid || !galleryPhotos.length) return;
+    galleryGrid.innerHTML = galleryPhotos
+      .map(function (photo, index) {
+        var caption = photo.caption ? T(photo.caption) : "";
+        var alt = caption || T("사진");
+        return (
+          '<button class="gallery-item" type="button" data-gallery="' +
+          index +
+          '" aria-label="' +
+          esc(caption ? caption + " · " + T("크게 보기") : T("사진 크게 보기")) +
+          '">' +
+          '<img src="' +
+          esc(photo.thumb || photo.src) +
+          '" alt="' +
+          esc(alt) +
+          '" width="720" height="720" loading="lazy" decoding="async" />' +
+          (caption ? '<span class="gallery-cap">' + esc(caption) + "</span>" : "") +
+          "</button>"
+        );
+      })
+      .join("");
+    if (galleryNote) {
+      galleryNote.textContent = T("사진 " + galleryPhotos.length + "장");
+      galleryNote.hidden = false;
+    }
+    buildGalleryFilter(galleryPhotos);
+  }
+
+  if (galleryGrid && window.fetch) {
+    fetch("gallery.json", { cache: "no-cache" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("gallery.json " + response.status);
+        return response.json();
+      })
+      .then(function (data) {
+        var photos = Array.isArray(data) ? data : (data && data.photos) || [];
+        if (!photos.length) return;
+        galleryPhotos = photos;
+        renderGallery();
+      })
+      .catch(function () {
+        var section = doc.getElementById("gallery");
+        if (section) section.hidden = true;
+      });
+  }
+
+  if (galleryFilter) {
     galleryFilter.addEventListener("click", function (event) {
       var btn = event.target.closest(".gallery-filter-btn");
       if (!btn) return;
@@ -372,48 +442,6 @@
       btn.classList.toggle("is-active", on);
       btn.setAttribute("aria-pressed", on ? "true" : "false");
     });
-  }
-
-  if (galleryGrid && window.fetch) {
-    fetch("gallery.json", { cache: "no-cache" })
-      .then(function (response) {
-        if (!response.ok) throw new Error("gallery.json " + response.status);
-        return response.json();
-      })
-      .then(function (data) {
-        var photos = Array.isArray(data) ? data : (data && data.photos) || [];
-        if (!photos.length) return;
-        galleryPhotos = photos;
-        galleryGrid.innerHTML = photos
-          .map(function (photo, index) {
-            var caption = photo.caption || "";
-            var alt = photo.alt || caption;
-            return (
-              '<button class="gallery-item" type="button" data-gallery="' +
-              index +
-              '" aria-label="' +
-              esc((caption || "사진") + " 크게 보기") +
-              '">' +
-              '<img src="' +
-              esc(photo.thumb || photo.src) +
-              '" alt="' +
-              esc(alt) +
-              '" width="720" height="720" loading="lazy" decoding="async" />' +
-              (caption ? '<span class="gallery-cap">' + esc(caption) + "</span>" : "") +
-              "</button>"
-            );
-          })
-          .join("");
-        if (galleryNote) {
-          galleryNote.textContent = "사진 " + photos.length + "장";
-          galleryNote.hidden = false;
-        }
-        buildGalleryFilter(photos);
-      })
-      .catch(function () {
-        var section = doc.getElementById("gallery");
-        if (section) section.hidden = true;
-      });
   }
 
   if (galleryGrid) {
@@ -525,9 +553,12 @@
   }
 
   function summaryOf(m) {
-    if (m.headline && String(m.headline).trim()) return String(m.headline).trim();
-    if (m.bioKo && String(m.bioKo).trim()) {
-      var text = String(m.bioKo).trim().replace(/\s+/g, " ");
+    var tr = localized(m) || {};
+    var headline = tr.headline || m.headline;
+    var bio = tr.bio || m.bioKo;
+    if (headline && String(headline).trim()) return String(headline).trim();
+    if (bio && String(bio).trim()) {
+      var text = String(bio).trim().replace(/\s+/g, " ");
       if (text.length > 128) return text.slice(0, 126).replace(/[\s,.;:]*$/, "") + "…";
       return text;
     }
@@ -536,10 +567,19 @@
 
   function memberCard(m, options) {
     options = options || {};
-    var hasBio = !!(m.bioKo && String(m.bioKo).trim());
+    var tr = localized(m) || {};
+    var lang = LANG();
+    var bio = tr.bio || m.bioKo;
+    var headline = tr.headline || m.headline;
+    var interests = tr.interests || m.interests;
+    var keywords = tr.keywords || m.keywords;
+    var tag = tr.tag || T(m.tag);
+    var hasBio = !!(bio && String(bio).trim());
     var bodyId = "mb-" + (m.id || "x");
     var summary = summaryOf(m);
     var initial = String(m.name || "?").trim().charAt(0);
+    var displayName = lang !== "ko" && m.nameEn ? m.nameEn : m.name || "이름";
+    var secondaryName = lang !== "ko" && m.nameEn ? m.name : m.nameEn;
     var programClass = m.program
       ? " member--" + String(m.program).toLowerCase().replace(/[^a-z0-9-]/g, "")
       : "";
@@ -567,8 +607,8 @@
     } else {
       html += '<span class="member-initial" aria-hidden="true">' + esc(initial) + "</span>";
     }
-    html += '<div class="member-id"><h4>' + esc(m.name || "이름") + "</h4>";
-    if (m.nameEn) html += '<p class="member-en">' + esc(m.nameEn) + "</p>";
+    html += '<div class="member-id"><h4>' + esc(displayName) + "</h4>";
+    if (secondaryName) html += '<p class="member-en">' + esc(secondaryName) + "</p>";
     if (m.email) {
       html +=
         '<p class="member-mail"><a href="mailto:' +
@@ -578,9 +618,9 @@
         "</a></p>";
     }
     html += "</div>";
-    if (m.tag) {
+    if (tag) {
       html +=
-        '<span class="member-tag' + (m.manager ? " is-manager" : "") + '">' + esc(m.tag) + "</span>";
+        '<span class="member-tag' + (m.manager ? " is-manager" : "") + '">' + esc(tag) + "</span>";
     }
     html += "</div>";
 
@@ -593,28 +633,40 @@
       '<p class="member-line' +
       (summary ? "" : " is-empty") +
       '">' +
-      esc(summary || "소개글 작성 예정 · 연구 관심사 추가 가능") +
+      esc(summary || T("소개글 작성 예정 · 연구 관심사 추가 가능")) +
       "</p>";
 
     if (!hasBio && !options.preview) {
       html +=
-        '<ul class="member-slots" aria-hidden="true"><li>연구 관심사</li><li>키워드</li><li>이메일 · 링크</li></ul>';
+        '<ul class="member-slots" aria-hidden="true"><li>' +
+        esc(T("연구 관심사")) +
+        "</li><li>" +
+        esc(T("키워드")) +
+        "</li><li>" +
+        esc(T("이메일 · 링크")) +
+        "</li></ul>";
     }
 
     html += '<div class="member-body" id="' + bodyId + '">';
     if (hasBio) {
-      html += paragraphs(m.bioKo);
-      if (m.bioEn) html += '<p class="member-en-bio" lang="en">' + esc(m.bioEn) + "</p>";
-      if (m.interests && m.interests.length) {
-        html += '<p class="member-label">관심 연구</p>' + chipList(m.interests, "chips chips--sm");
+      html += paragraphs(bio);
+      if (m.bioEn && lang === "ko") html += '<p class="member-en-bio" lang="en">' + esc(m.bioEn) + "</p>";
+      if (interests && interests.length) {
+        html += '<p class="member-label">' + esc(T("관심 연구")) + "</p>" + chipList(interests, "chips chips--sm");
       }
-      if (m.keywords && m.keywords.length) {
-        html += '<p class="member-label">키워드</p>' + chipList(m.keywords, "chips chips--sm");
+      if (keywords && keywords.length) {
+        html += '<p class="member-label">' + esc(T("키워드")) + "</p>" + chipList(keywords, "chips chips--sm");
       }
       html += linkList(m.links);
     } else {
       html +=
-        '<p class="member-empty-note">아직 소개글이 등록되지 않았습니다. 아래 「내 소개 쓰기」를 누르면 이 카드에 들어갈 소개글을 카드 미리보기와 함께 작성해 보낼 수 있습니다. 전공 배경, 지금 하는 연구, 다루는 데이터와 방법, 관심 키워드를 적어 주세요.</p>';
+        '<p class="member-empty-note">' +
+        esc(
+          T(
+            "아직 소개글이 등록되지 않았습니다. 아래 「내 소개 쓰기」를 누르면 이 카드에 들어갈 소개글을 카드 미리보기와 함께 작성해 보낼 수 있습니다. 전공 배경, 지금 하는 연구, 다루는 데이터와 방법, 관심 키워드를 적어 주세요."
+          )
+        ) +
+        "</p>";
     }
     html += "</div>";
 
@@ -623,13 +675,17 @@
       html +=
         '<button class="member-toggle" type="button" aria-expanded="false" aria-controls="' +
         bodyId +
-        '"><span>소개 보기</span>' +
+        '"><span>' +
+        esc(T("소개 보기")) +
+        "</span>" +
         CHEVRON +
         "</button>";
       html +=
         '<button class="member-write" type="button" data-bio-open="' +
         esc(m.id) +
-        '">내 소개 쓰기</button>';
+        '">' +
+        esc(T("내 소개 쓰기")) +
+        "</button>";
       html += "</footer>";
     }
 
@@ -641,13 +697,22 @@
     return m && m.program !== "pi";
   });
 
-  if (grid && students.length) {
+  function renderMembers() {
+    if (!grid || !students.length) return;
+    var openIds = Array.prototype.slice.call(grid.querySelectorAll(".member.is-open")).map(function (card) {
+      return card.getAttribute("data-member");
+    });
     grid.innerHTML = students
       .map(function (m) {
         return memberCard(m);
       })
       .join("");
+    openIds.forEach(function (id) {
+      setCardOpen(grid.querySelector('.member[data-member="' + id + '"]'), true);
+    });
   }
+
+  renderMembers();
 
   function setCardOpen(card, open) {
     if (!card) return;
@@ -656,7 +721,7 @@
     if (!btn) return;
     btn.setAttribute("aria-expanded", open ? "true" : "false");
     var label = btn.querySelector("span");
-    if (label) label.textContent = open ? "접기" : "소개 보기";
+    if (label) label.textContent = open ? T("접기") : T("소개 보기");
   }
 
   if (grid) {
@@ -748,7 +813,7 @@
       name: name,
       nameEn: nameEn,
       program: program,
-      tag: PROGRAM_TAG[program] || "연구원",
+      tag: T(PROGRAM_TAG[program] || "연구원"),
       headline: fields.headline ? fields.headline.value.trim() : "",
       bioKo: fields.bioKo ? fields.bioKo.value.trim() : "",
       bioEn: fields.bioEn ? fields.bioEn.value.trim() : "",
@@ -876,8 +941,8 @@
       copyJsonBtn.addEventListener("click", function () {
         copyText(
           jsonOf(currentEntry()),
-          "JSON을 복사했습니다. data/members.js 에 붙여 넣으세요",
-          "복사하지 못했습니다. 아래 내용을 직접 선택해 주세요"
+          T("JSON을 복사했습니다. data/members.js 에 붙여 넣으세요"),
+          T("복사하지 못했습니다. 아래 내용을 직접 선택해 주세요")
         );
       });
     }
@@ -886,7 +951,7 @@
     if (mailBtn) {
       mailBtn.addEventListener("click", function () {
         var entry = currentEntry();
-        var who = entry.name || "구성원";
+        var who = entry.name || "FEI · HEL member";
         var subject = "[FEI · HEL] 소개글 제출 — " + who;
         var body =
           "FEI · HEL 홈페이지 구성원 소개글을 제출합니다.\n\n" +
@@ -917,9 +982,9 @@
           window.setTimeout(function () {
             URL.revokeObjectURL(url);
           }, 1000);
-          showToast("소개글 파일을 내려받았습니다");
+          showToast(T("소개글 파일을 내려받았습니다"));
         } catch (err) {
-          copyText(text, "파일을 만들 수 없어 JSON을 복사했습니다", "복사하지 못했습니다");
+          copyText(text, T("파일을 만들 수 없어 JSON을 복사했습니다"), T("복사하지 못했습니다"));
         }
       });
     }
@@ -934,4 +999,12 @@
 
     updateComposer();
   }
+
+  /* ---------- language change ---------- */
+
+  doc.addEventListener("fei:i18nchange", function () {
+    renderMembers();
+    renderGallery();
+    if (dialog && dialog.open) updateComposer();
+  });
 })();
