@@ -22,7 +22,9 @@
   f.height = h;
   f.style.width = w + "px";
   f.style.height = h + "px";
-  f.src = "./index.html" + q + hash;
+  var off = parseInt(p.get("scroll") || "0", 10);
+  f.style.marginTop = off ? "-" + off + "px" : "0";
+  f.src = "./index.html" + q;
   document.body.appendChild(f);
 </script>
 </body>
