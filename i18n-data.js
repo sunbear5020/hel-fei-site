@@ -2340,7 +2340,7 @@ window.FEI_I18N_DATA = {
     "청나라 금동 불상": {
       "en": "A Qing-dynasty gilt-bronze Buddha",
       "ja": "清時代の金銅仏",
-      "zh": "清代鐛金铜佛"
+      "zh": "清代鎏金铜佛"
     },
     "도자기 문양 미디어아트": {
       "en": "Porcelain-pattern media art",
@@ -2410,7 +2410,7 @@ window.FEI_I18N_DATA = {
     "조개가 푸짐한 해물칼국수": {
       "en": "Seafood kalguksu with plenty of clams",
       "ja": "貝たっぷりの海鮮カルグクス",
-      "zh": "蛤苈满满的海鲜刀削面"
+      "zh": "蛤蜊满满的海鲜刀削面"
     },
     "김건우 교수": {
       "en": "Professor Geonwoo Kim",

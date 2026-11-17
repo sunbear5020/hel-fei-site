@@ -191,7 +191,7 @@ CAPTIONS = [
     ("웡타이신 사원", "Wong Tai Sin Temple",
      "黄大仙祠", "黄大仙祠"),
     ("청나라 금동 불상", "A Qing-dynasty gilt-bronze Buddha",
-     "清時代の金銅仏", "清代鐛金铜佛"),
+     "清時代の金銅仏", "清代鎏金铜佛"),
     ("도자기 문양 미디어아트", "Porcelain-pattern media art",
      "陶磁器文様のメディアアート", "瓷器纹样媒体艺术"),
     ("연꽃이 피어나는 전시장 바닥", "A gallery floor where lotuses bloom",
@@ -219,7 +219,7 @@ CAPTIONS = [
     ("신선한 회덮밥", "A fresh bowl of hoedeopbap",
      "新鮮なフェドッパプ", "新鲜的生鱼片拌饭"),
     ("조개가 푸짐한 해물칼국수", "Seafood kalguksu with plenty of clams",
-     "貝たっぷりの海鮮カルグクス", "蛤苈满满的海鲜刀削面"),
+     "貝たっぷりの海鮮カルグクス", "蛤蜊满满的海鲜刀削面"),
 ]
 
 EXTRA = [
