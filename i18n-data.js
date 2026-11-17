@@ -1032,6 +1032,81 @@ window.FEI_I18N_DATA = {
       "ja": "四つの軸の重み付き和で森を並べ、根拠の文とともに提示します。",
       "zh": "以四个支轴的加权和排序森林，并同时给出依据说明。"
     },
+    "Research platforms": {
+      "en": "Research platforms",
+      "ja": "研究プラットフォーム",
+      "zh": "研究平台"
+    },
+    "연구실이 만든 세 개의 플랫폼": {
+      "en": "Three platforms built in the lab",
+      "ja": "研究室がつくった三つのプラットフォーム",
+      "zh": "实验室打造的三款平台"
+    },
+    "산림치유 추천에서 심혈관 생리 반응의 측정으로, 다시 후각과 분자의 탐색으로 — 연구실의 연구가 사람이 직접 쓰는 서비스의 형태로 이어집니다.": {
+      "en": "From forest-healing recommendations to the measurement of cardiovascular responses, and on to the exploration of scent and molecules — the lab's research carries on as services people use themselves.",
+      "ja": "森林癒しの推薦から心血管生理反応の計測へ、さらに香りと分子の探索へ——研究室の研究は、人が自ら使うサービスの形へとつながっていきます。",
+      "zh": "从森林疗愈推荐到心血管生理反应的测量，再到对香气与分子的探索——实验室的研究正延伸为人们亲自使用的服务。"
+    },
+    "In Design · Research Platform": {
+      "en": "In Design · Research Platform",
+      "ja": "設計中 · 研究プラットフォーム",
+      "zh": "设计中 · 研究平台"
+    },
+    "In Design · Scent Intelligence": {
+      "en": "In Design · Scent Intelligence",
+      "ja": "設計中 · 香りのインテリジェンス",
+      "zh": "设计中 · 香氛智能"
+    },
+    "혈압(BP)과 심박수(HR), 심박변이도(HRV)로 도시숲과 산림치유환경에서의 생리적 반응을 정량적으로 평가하는 연구 플랫폼입니다. 웨어러블 기기가 수집한 신호를 환경 노출 정보와 함께 분석하는 구조를 설계하고 있습니다.": {
+      "en": "A research platform that measures physiological responses in urban forests and forest healing environments through blood pressure, heart rate and heart rate variability. We are designing the structure in which signals collected by wearables are analysed together with environmental exposure data.",
+      "ja": "血圧（BP）、心拍数（HR）、心拍変動（HRV）によって、都市の森や森林癒し環境での生理的反応を定量的に評価する研究プラットフォームです。ウェアラブル機器が集めた信号を環境曝露の情報とともに解析する仕組みを設計しています。",
+      "zh": "以血压（BP）、心率（HR）与心率变异性（HRV）定量评估城市森林与森林疗愈环境中生理反应的研究平台。正在设计将可穿戴设备采集的信号与环境暴露信息一并分析的架构。"
+    },
+    "측정 지표": {
+      "en": "Measures",
+      "ja": "計測指標",
+      "zh": "测量指标"
+    },
+    "혈압(BP) · 심박수(HR) · 심박변이도(HRV)": {
+      "en": "Blood pressure (BP) · Heart rate (HR) · Heart rate variability (HRV)",
+      "ja": "血圧（BP）・心拍数（HR）・心拍変動（HRV）",
+      "zh": "血压（BP）·心率（HR）·心率变异性（HRV）"
+    },
+    "연동 설계": {
+      "en": "Integration design",
+      "ja": "連携設計",
+      "zh": "对接设计"
+    },
+    "적용 환경": {
+      "en": "Setting",
+      "ja": "適用環境",
+      "zh": "应用场景"
+    },
+    "도시숲 · 산림치유환경": {
+      "en": "Urban forests · forest healing environments",
+      "ja": "都市の森・森林癒し環境",
+      "zh": "城市森林·森林疗愈环境"
+    },
+    "고대 향의 역사와 후각 과학을 연결해 맞춤 향수 추천과 DIY 조향 가이드를 제공하고, AI로 새로운 향료 분자와 배합을 탐색하는 플랫폼입니다.": {
+      "en": "A platform that connects the history of ancient aromas with olfactory science to offer personalised fragrance recommendations and DIY blending guides, and explores new fragrance molecules and blends with AI.",
+      "ja": "古代の香りの歴史と嗅覚科学をつなぎ、パーソナルな香水の推薦とDIY調香ガイドを提供し、AIで新たな香料分子と配合を探るプラットフォームです。",
+      "zh": "连接古代香史与嗅觉科学，提供个性化香水推荐与DIY调香指南，并以AI探索新香料分子与配方的平台。"
+    },
+    "고대 향의 역사 · 후각 과학 · 생성형 AI": {
+      "en": "History of ancient aromas · olfactory science · generative AI",
+      "ja": "古代の香りの歴史・嗅覚科学・生成AI",
+      "zh": "古代香史·嗅觉科学·生成式AI"
+    },
+    "제공 기능": {
+      "en": "Features",
+      "ja": "提供機能",
+      "zh": "功能"
+    },
+    "맞춤 향수 추천 · DIY 조향 가이드 · 분자 탐색": {
+      "en": "Personalised fragrance recommendations · DIY blending guides · molecular exploration",
+      "ja": "パーソナル香水の推薦・DIY調香ガイド・分子探索",
+      "zh": "个性化香水推荐·DIY调香指南·分子探索"
+    },
     "People": {
       "en": "People",
       "ja": "メンバー",
