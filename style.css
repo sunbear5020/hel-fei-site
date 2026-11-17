@@ -902,6 +902,14 @@ code { font-family: var(--mono); font-size: 0.92em; }
   letter-spacing: -0.035em;
   color: var(--cream);
 }
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 1.8vw, 22px);
+  margin-bottom: 10px;
+}
+.project-head .eyebrow { margin: 0 0 4px; }
+.project-head .project-title { margin: 0; }
 .project-en {
   margin: 0 0 26px;
   font-size: 11.5px;
@@ -2420,6 +2428,13 @@ html[lang="en"] .axis-name { width: 104px; }
   .bio-cta-actions .btn { flex: 1 1 100%; }
   .footer-bottom { flex-direction: column; }
   .bio-actions .btn { flex: 1 1 100%; }
+}
+
+@media (min-width: 1081px) {
+  /* 세 열로 좁아지는 카드에서는 배지를 아이콘 아래 한 줄로 둔다 */
+  .platform-top { display: block; }
+  .platform-top .platform-mark { margin-bottom: 14px; }
+  .platform-badge { text-align: left; }
 }
 
 @media (prefers-reduced-motion: reduce) {
