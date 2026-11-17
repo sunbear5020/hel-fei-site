@@ -199,6 +199,7 @@ ENTRIES = [
      "A platform that connects the history of ancient aromas with olfactory science to offer personalised fragrance recommendations and DIY blending guides, and explores new fragrance molecules and blends with AI.",
      "古代の香りの歴史と嗅覚科学をつなぎ、パーソナルな香水の推薦とDIY調香ガイドを提供し、AIで新たな香料分子と配合を探るプラットフォームです。",
      "连接古代香史与嗅觉科学，提供个性化香水推荐与DIY调香指南，并以AI探索新香料分子与配方的平台。"),
+    ("구성 모듈", "Modules", "構成モジュール", "构成模块"),
     ("고대 향의 역사 · 후각 과학 · 생성형 AI", "History of ancient aromas · olfactory science · generative AI",
      "古代の香りの歴史・嗅覚科学・生成AI", "古代香史·嗅觉科学·生成式AI"),
     ("제공 기능", "Features", "提供機能", "功能"),
