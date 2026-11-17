@@ -1037,15 +1037,15 @@ window.FEI_I18N_DATA = {
       "ja": "研究プラットフォーム",
       "zh": "研究平台"
     },
-    "연구실이 만든 세 개의 플랫폼": {
-      "en": "Three platforms built in the lab",
-      "ja": "研究室がつくった三つのプラットフォーム",
-      "zh": "实验室打造的三款平台"
+    "연구실이 만든 네 개의 플랫폼": {
+      "en": "Four platforms built in the lab",
+      "ja": "研究室がつくった四つのプラットフォーム",
+      "zh": "实验室打造的四款平台"
     },
-    "산림치유 추천에서 심혈관 생리 반응의 측정으로, 다시 후각과 분자의 탐색으로 — 연구실의 연구가 사람이 직접 쓰는 서비스의 형태로 이어집니다.": {
-      "en": "From forest-healing recommendations to the measurement of cardiovascular responses, and on to the exploration of scent and molecules — the lab's research carries on as services people use themselves.",
-      "ja": "森林癒しの推薦から心血管生理反応の計測へ、さらに香りと分子の探索へ——研究室の研究は、人が自ら使うサービスの形へとつながっていきます。",
-      "zh": "从森林疗愈推荐到心血管生理反应的测量，再到对香气与分子的探索——实验室的研究正延伸为人们亲自使用的服务。"
+    "산림치유 추천에서 심혈관 생리 반응의 측정으로, 다시 후각과 분자의 탐색으로, 그리고 시선추적 데이터의 분석으로 — 연구실의 연구가 사람이 직접 쓰는 서비스와 도구의 형태로 이어집니다.": {
+      "en": "From forest-healing recommendations to the measurement of cardiovascular responses, on to the exploration of scent and molecules, and now to the analysis of eye-tracking data — the lab's research carries on as services and tools people use themselves.",
+      "ja": "森林癒しの推薦から心血管生理反応の計測へ、さらに香りと分子の探索へ、そして視線追跡データの分析へ——研究室の研究は、人が自ら使うサービスと道具の形へとつながっていきます。",
+      "zh": "从森林疗愈推荐到心血管生理反应的测量，再到对香气与分子的探索，如今又延伸到眼动追踪数据的分析——实验室的研究正延伸为人们亲自使用的服务与工具。"
     },
     "In Design · Research Platform": {
       "en": "In Design · Research Platform",
@@ -1056,6 +1056,11 @@ window.FEI_I18N_DATA = {
       "en": "In Design · Scent Intelligence",
       "ja": "設計中 · 香りのインテリジェンス",
       "zh": "设计中 · 香氛智能"
+    },
+    "In Design · Eye-Tracking Analytics": {
+      "en": "In Design · Eye-Tracking Analytics",
+      "ja": "設計中 · アイトラッキング分析",
+      "zh": "设计中 · 眼动追踪分析"
     },
     "혈압(BP)과 심박수(HR), 심박변이도(HRV)로 도시숲과 산림치유환경에서의 생리적 반응을 정량적으로 평가하는 연구 플랫폼입니다. 웨어러블 기기가 수집한 신호를 환경 노출 정보와 함께 분석하는 구조를 설계하고 있습니다.": {
       "en": "A research platform that measures physiological responses in urban forests and forest healing environments through blood pressure, heart rate and heart rate variability. We are designing the structure in which signals collected by wearables are analysed together with environmental exposure data.",
@@ -1111,6 +1116,26 @@ window.FEI_I18N_DATA = {
       "en": "Personalised fragrance recommendations · DIY blending guides · molecular exploration",
       "ja": "パーソナル香水の推薦・DIY調香ガイド・分子探索",
       "zh": "个性化香水推荐·DIY调香指南·分子探索"
+    },
+    "Tobii에서 내보낸 원자료를 정제해 응시(Fixation) · 도약(Saccade) · 관심영역(AOI)을 정량분석하고, 히트맵과 스캔패스로 시각화하며, AI로 자연·인공 환경요소를 분할하는 연구용 독립 분석 소프트웨어입니다. From Gaze Data to Visual Intelligence.": {
+      "en": "A standalone research tool that cleans raw data exported from Tobii, quantifies fixations, saccades and areas of interest, visualises them as heatmaps and scanpaths, and uses AI to segment natural and built environmental elements. From Gaze Data to Visual Intelligence.",
+      "ja": "Tobiiから書き出した原資料を整え、注視（Fixation）・サッケード（Saccade）・関心領域（AOI）を定量分析し、ヒートマップとスキャンパスで可視化、さらにAIで自然物・人工物の環境要素を分割する研究用の独立分析ソフトウェアです。From Gaze Data to Visual Intelligence.",
+      "zh": "对Tobii导出的原始资料进行清洗，定量分析注视（Fixation）·眼跳（Saccade）·兴趣区（AOI），以热力图与扫描路径可视化，并用AI分割自然与人工环境要素的研究用独立分析软件。From Gaze Data to Visual Intelligence."
+    },
+    "입력 자료": {
+      "en": "Input data",
+      "ja": "入力データ",
+      "zh": "输入数据"
+    },
+    "적용 분야": {
+      "en": "Applications",
+      "ja": "適用分野",
+      "zh": "应用领域"
+    },
+    "환경인지 · 광고 · UX · 건축 · 심리학": {
+      "en": "Environmental perception · advertising · UX · architecture · psychology",
+      "ja": "環境認知・広告・UX・建築・心理学",
+      "zh": "环境认知·广告·UX·建筑·心理学"
     },
     "People": {
       "en": "People",
