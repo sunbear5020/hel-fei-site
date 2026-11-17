@@ -1242,6 +1242,16 @@ window.FEI_I18N_DATA = {
       "ja": "秋の風景",
       "zh": "秋日风景"
     },
+    "연구실 · 현장": {
+      "en": "Lab & fieldwork",
+      "ja": "研究室・フィールド",
+      "zh": "实验室与现场"
+    },
+    "일상": {
+      "en": "Everyday",
+      "ja": "日々の暮らし",
+      "zh": "日常"
+    },
     "기타": {
       "en": "Other",
       "ja": "その他",
@@ -2246,6 +2256,161 @@ window.FEI_I18N_DATA = {
       "en": "A road deepening in autumn light",
       "ja": "秋の色が深まる道",
       "zh": "秋色渐深的路"
+    },
+    "옥산사의 호안끼엠 거북": {
+      "en": "The Hoan Kiem turtle at Ngoc Son Temple",
+      "ja": "玉山祠のホアンキエム亀",
+      "zh": "玉山祠的还剑龟"
+    },
+    "하노이의 쌀국수와 꿔이": {
+      "en": "Pho and quay in Hanoi",
+      "ja": "ハノイのフォーとクアイ",
+      "zh": "河内的河粉与油条"
+    },
+    "쌀국수 노포의 육수 솥": {
+      "en": "The broth pot at a long-standing pho shop",
+      "ja": "フォーの老舗の出汁鍋",
+      "zh": "老字号河粉店的汤锅"
+    },
+    "호아로 수용소 전시관": {
+      "en": "Hoa Lo Prison museum",
+      "ja": "ホアロー収容所の展示館",
+      "zh": "火炉监狱陈列馆"
+    },
+    "하노이 골목의 반미": {
+      "en": "Banh mi in a Hanoi alley",
+      "ja": "ハノイの路地のバインミー",
+      "zh": "河内巷子里的越式法棍"
+    },
+    "오토바이가 가득한 하노이 거리": {
+      "en": "Hanoi streets full of motorbikes",
+      "ja": "バイクであふれるハノイの街",
+      "zh": "摩托车满街的河内"
+    },
+    "창밖으로 보이는 하노이의 밤": {
+      "en": "Hanoi at night, seen from the window",
+      "ja": "窓から見るハノイの夜",
+      "zh": "窗外的河内夜色"
+    },
+    "깃발이 나부끼는 골목": {
+      "en": "An alley of fluttering flags",
+      "ja": "旗のなびく路地",
+      "zh": "旗帜飘扬的小巷"
+    },
+    "서호의 쩐꾸옥 사원": {
+      "en": "Tran Quoc Pagoda on West Lake",
+      "ja": "西湖のチャンクオック寺",
+      "zh": "西湖的镇国寺"
+    },
+    "하노이 밤거리의 큰 나무": {
+      "en": "A great tree on a Hanoi street at night",
+      "ja": "ハノイの夜の街の大木",
+      "zh": "河内夜色中的大树"
+    },
+    "고궁박물관의 백옥 조각": {
+      "en": "A white jade carving at the Palace Museum",
+      "ja": "故宮文化博物館の白玉の彫刻",
+      "zh": "故宫文化博物馆的白玉雕刻"
+    },
+    "레고로 만든 홍콩 거리": {
+      "en": "A Hong Kong street built of Lego",
+      "ja": "レゴで作った香港の街",
+      "zh": "乐高拼出的香港街景"
+    },
+    "초이홍 아파트 농구장": {
+      "en": "The basketball court at Choi Hung Estate",
+      "ja": "彩虹邨のバスケットコート",
+      "zh": "彩虹邨的篮球场"
+    },
+    "익청빌딩의 수직 풍경": {
+      "en": "The vertical view of Yick Cheong Building",
+      "ja": "益昌ビルの垂直の景観",
+      "zh": "益昌大厦的垂直景观"
+    },
+    "홍콩 거리의 신년 운세": {
+      "en": "New-year fortunes told on a Hong Kong street",
+      "ja": "香港の街の新年の運勢占い",
+      "zh": "香港街头的流年运势"
+    },
+    "웡타이신 사원": {
+      "en": "Wong Tai Sin Temple",
+      "ja": "黄大仙祠",
+      "zh": "黄大仙祠"
+    },
+    "청나라 금동 불상": {
+      "en": "A Qing-dynasty gilt-bronze Buddha",
+      "ja": "清時代の金銅仏",
+      "zh": "清代鐛金铜佛"
+    },
+    "도자기 문양 미디어아트": {
+      "en": "Porcelain-pattern media art",
+      "ja": "陶磁器文様のメディアアート",
+      "zh": "瓷器纹样媒体艺术"
+    },
+    "연꽃이 피어나는 전시장 바닥": {
+      "en": "A gallery floor where lotuses bloom",
+      "ja": "蓮の花が咲く展示場の床",
+      "zh": "莲花绽放的展厅地面"
+    },
+    "산림치유원 옥상에서의 현장 해설": {
+      "en": "A field briefing on the rooftop at the National Forest Therapy Centre",
+      "ja": "国立森林癒し院の屋上での現地解説",
+      "zh": "在国立森林疗愈院屋顶的现场讲解"
+    },
+    "옴니핏 뇌파·스트레스 측정": {
+      "en": "Brainwave and stress measurement with Omnifit",
+      "ja": "オムニフィットによる脳波・ストレス測定",
+      "zh": "使用 Omnifit 进行脑波与压力测量"
+    },
+    "숲속 데크에서의 산림치유 프로그램": {
+      "en": "A forest therapy programme on a deck in the woods",
+      "ja": "森のデッキでの森林癒しプログラム",
+      "zh": "林间木台上的森林疗愈项目"
+    },
+    "사찰 명상 프로그램 현장": {
+      "en": "A meditation programme at a temple",
+      "ja": "寺院の瞑想プログラムの現場",
+      "zh": "寺院冥想项目现场"
+    },
+    "숲속 표식목 현장 조사": {
+      "en": "Field survey at marked trees in the forest",
+      "ja": "森の標識木での現地調査",
+      "zh": "林中标记树的现场调查"
+    },
+    "활엽수림 답사": {
+      "en": "Walking a broadleaf forest",
+      "ja": "広葉樹林の踏査",
+      "zh": "阔叶林踏查"
+    },
+    "현장 수목 조사 중 한 컷": {
+      "en": "A moment of the tree survey",
+      "ja": "樹木調査のひとコマ",
+      "zh": "树木调查中的一瞬"
+    },
+    "해 질 녘 바닷가에 모인 연구실": {
+      "en": "The lab gathered by the sea at dusk",
+      "ja": "夕暮れの海辺に集まった研究室",
+      "zh": "黄昏时分聚在海边的实验室"
+    },
+    "비 오는 날의 산림 조사": {
+      "en": "A forest survey on a rainy day",
+      "ja": "雨の日の森林調査",
+      "zh": "雨天的森林调查"
+    },
+    "해물 가득한 짬뽕 한 그릇": {
+      "en": "A bowl of jjamppong loaded with seafood",
+      "ja": "海鮮たっぷりのチャンポン",
+      "zh": "满满海鲜的一碗辣汤面"
+    },
+    "신선한 회덮밥": {
+      "en": "A fresh bowl of hoedeopbap",
+      "ja": "新鮮なフェドッパプ",
+      "zh": "新鲜的生鱼片拌饭"
+    },
+    "조개가 푸짐한 해물칼국수": {
+      "en": "Seafood kalguksu with plenty of clams",
+      "ja": "貝たっぷりの海鮮カルグクス",
+      "zh": "蛤苈满满的海鲜刀削面"
     },
     "김건우 교수": {
       "en": "Professor Geonwoo Kim",

@@ -414,6 +414,223 @@
       "alt": "붉은 단풍나무와 노란 은행나무, 메타세쿼이아가 늘어선 길",
       "caption": "가을빛이 깊어진 길",
       "tag": "가을 풍경"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-hoankiem-turtle.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-hoankiem-turtle.jpg",
+      "alt": "옥산사의 호안끼엠 거북",
+      "caption": "옥산사의 호안끼엠 거북",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-pho-morning.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-pho-morning.jpg",
+      "alt": "하노이의 쌀국수와 꿔이",
+      "caption": "하노이의 쌀국수와 꿔이",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-pho-kitchen.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-pho-kitchen.jpg",
+      "alt": "쌀국수 노포의 육수 솥",
+      "caption": "쌀국수 노포의 육수 솥",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-hoa-lo.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-hoa-lo.jpg",
+      "alt": "호아로 수용소 전시관",
+      "caption": "호아로 수용소 전시관",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-banh-mi-mama.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-banh-mi-mama.jpg",
+      "alt": "하노이 골목의 반미",
+      "caption": "하노이 골목의 반미",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-motorbikes.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-motorbikes.jpg",
+      "alt": "오토바이가 가득한 하노이 거리",
+      "caption": "오토바이가 가득한 하노이 거리",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-night-window.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-night-window.jpg",
+      "alt": "창밖으로 보이는 하노이의 밤",
+      "caption": "창밖으로 보이는 하노이의 밤",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-flag-alley.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-flag-alley.jpg",
+      "alt": "깃발이 나부끼는 골목",
+      "caption": "깃발이 나부끼는 골목",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-tran-quoc.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-tran-quoc.jpg",
+      "alt": "서호의 쩐꾸옥 사원",
+      "caption": "서호의 쩐꾸옥 사원",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hanoi-night-tree.jpg",
+      "thumb": "assets/gallery/thumb/hanoi-night-tree.jpg",
+      "alt": "하노이 밤거리의 큰 나무",
+      "caption": "하노이 밤거리의 큰 나무",
+      "tag": "하노이 · 짱안"
+    },
+    {
+      "src": "assets/gallery/full/hk-white-jade.jpg",
+      "thumb": "assets/gallery/thumb/hk-white-jade.jpg",
+      "alt": "고궁박물관의 백옥 조각",
+      "caption": "고궁박물관의 백옥 조각",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-lego-street.jpg",
+      "thumb": "assets/gallery/thumb/hk-lego-street.jpg",
+      "alt": "레고로 만든 홍콩 거리",
+      "caption": "레고로 만든 홍콩 거리",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-choi-hung.jpg",
+      "thumb": "assets/gallery/thumb/hk-choi-hung.jpg",
+      "alt": "초이홍 아파트 농구장",
+      "caption": "초이홍 아파트 농구장",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-yick-cheong.jpg",
+      "thumb": "assets/gallery/thumb/hk-yick-cheong.jpg",
+      "alt": "익청빌딩의 수직 풍경",
+      "caption": "익청빌딩의 수직 풍경",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-fortune-teller.jpg",
+      "thumb": "assets/gallery/thumb/hk-fortune-teller.jpg",
+      "alt": "홍콩 거리의 신년 운세",
+      "caption": "홍콩 거리의 신년 운세",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-wong-tai-sin.jpg",
+      "thumb": "assets/gallery/thumb/hk-wong-tai-sin.jpg",
+      "alt": "웡타이신 사원",
+      "caption": "웡타이신 사원",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-palace-buddha.jpg",
+      "thumb": "assets/gallery/thumb/hk-palace-buddha.jpg",
+      "alt": "청나라 금동 불상",
+      "caption": "청나라 금동 불상",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-media-porcelain.jpg",
+      "thumb": "assets/gallery/thumb/hk-media-porcelain.jpg",
+      "alt": "도자기 문양 미디어아트",
+      "caption": "도자기 문양 미디어아트",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/hk-media-lotus.jpg",
+      "thumb": "assets/gallery/thumb/hk-media-lotus.jpg",
+      "alt": "연꽃이 피어나는 전시장 바닥",
+      "caption": "연꽃이 피어나는 전시장 바닥",
+      "tag": "홍콩"
+    },
+    {
+      "src": "assets/gallery/full/lab-rooftop-view.jpg",
+      "thumb": "assets/gallery/thumb/lab-rooftop-view.jpg",
+      "alt": "산림치유원 옥상에서의 현장 해설",
+      "caption": "산림치유원 옥상에서의 현장 해설",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-omnifit-eeg.jpg",
+      "thumb": "assets/gallery/thumb/lab-omnifit-eeg.jpg",
+      "alt": "옴니핏 뇌파·스트레스 측정",
+      "caption": "옴니핏 뇌파·스트레스 측정",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-forest-deck.jpg",
+      "thumb": "assets/gallery/thumb/lab-forest-deck.jpg",
+      "alt": "숲속 데크에서의 산림치유 프로그램",
+      "caption": "숲속 데크에서의 산림치유 프로그램",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-temple-meditation.jpg",
+      "thumb": "assets/gallery/thumb/lab-temple-meditation.jpg",
+      "alt": "사찰 명상 프로그램 현장",
+      "caption": "사찰 명상 프로그램 현장",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-forest-survey-1.jpg",
+      "thumb": "assets/gallery/thumb/lab-forest-survey-1.jpg",
+      "alt": "숲속 표식목 현장 조사",
+      "caption": "숲속 표식목 현장 조사",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-forest-survey-2.jpg",
+      "thumb": "assets/gallery/thumb/lab-forest-survey-2.jpg",
+      "alt": "활엽수림 답사",
+      "caption": "활엽수림 답사",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-forest-survey-3.jpg",
+      "thumb": "assets/gallery/thumb/lab-forest-survey-3.jpg",
+      "alt": "현장 수목 조사 중 한 컷",
+      "caption": "현장 수목 조사 중 한 컷",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-seaside-sunset.jpg",
+      "thumb": "assets/gallery/thumb/lab-seaside-sunset.jpg",
+      "alt": "해 질 녘 바닷가에 모인 연구실",
+      "caption": "해 질 녘 바닷가에 모인 연구실",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/lab-rainy-survey.jpg",
+      "thumb": "assets/gallery/thumb/lab-rainy-survey.jpg",
+      "alt": "비 오는 날의 산림 조사",
+      "caption": "비 오는 날의 산림 조사",
+      "tag": "연구실 · 현장"
+    },
+    {
+      "src": "assets/gallery/full/daily-seafood-jjamppong.jpg",
+      "thumb": "assets/gallery/thumb/daily-seafood-jjamppong.jpg",
+      "alt": "해물 가득한 짬뽕 한 그릇",
+      "caption": "해물 가득한 짬뽕 한 그릇",
+      "tag": "일상"
+    },
+    {
+      "src": "assets/gallery/full/daily-hoedeopbap.jpg",
+      "thumb": "assets/gallery/thumb/daily-hoedeopbap.jpg",
+      "alt": "신선한 회덮밥",
+      "caption": "신선한 회덮밥",
+      "tag": "일상"
+    },
+    {
+      "src": "assets/gallery/full/daily-kalguksu.jpg",
+      "thumb": "assets/gallery/thumb/daily-kalguksu.jpg",
+      "alt": "조개가 푸짐한 해물칼국수",
+      "caption": "조개가 푸짐한 해물칼국수",
+      "tag": "일상"
     }
   ]
 }
