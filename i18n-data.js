@@ -1282,10 +1282,10 @@ window.FEI_I18N_DATA = {
       "ja": "論文とお知らせ",
       "zh": "论文与动态"
     },
-    "2013년부터 지금까지 연구실이 발표한 논문 44편을 한자리에 모았습니다. 연도를 눌러 골라 보실 수 있고, 각 항목은 DOI나 원문으로 연결됩니다.": {
-      "en": "All 44 papers published by the lab since 2013, gathered in one place. Choose a year to narrow the list; each entry links to its DOI or full text.",
-      "ja": "2013年から現在までに研究室が発表した論文44編を一堂に集めました。年を押して絞り込むことができ、各項目はDOIや原文へリンクしています。",
-      "zh": "汇集实验室自2013年以来发表的44篇论文。可按年份筛选，每条均可跳转至DOI或原文。"
+    "2013년부터 지금까지 연구실이 발표한 논문 45편을 한자리에 모았습니다. 연도를 눌러 골라 보실 수 있고, 각 항목은 DOI나 원문으로 연결됩니다.": {
+      "en": "All 45 papers published by the lab since 2013, gathered in one place. Choose a year to narrow the list; each entry links to its DOI or full text.",
+      "ja": "2013年から現在までに研究室が発表した論文45編を一堂に集めました。年を押して絞り込むことができ、各項目はDOIや原文へリンクしています。",
+      "zh": "汇集实验室自2013年以来发表的45篇论文。可按年份筛选，每条均可跳转至DOI或原文。"
     },
     "News": {
       "en": "News",
@@ -1347,10 +1347,25 @@ window.FEI_I18N_DATA = {
       "ja": "Population Medicine の抄録を見る →",
       "zh": "查看 Population Medicine 摘要 →"
     },
-    "44편": {
-      "en": "44 papers",
-      "ja": "44編",
-      "zh": "44篇"
+    "제18회 세계환경보건학회(18th WCEH 2026) 구두 발표": {
+      "en": "Oral presentation at the 18th IFEH World Congress on Environmental Health (WCEH 2026)",
+      "ja": "第18回世界環境保健学会議（18th WCEH 2026）口頭発表",
+      "zh": "第18届世界环境健康大会（18th WCEH 2026）口头发表"
+    },
+    "크로아티아 두브로브니크에서 열린 제18회 세계환경보건학회(4월 27일–5월 1일)에서 김건우 교수가 ‘Innovation & Technology’ 세션에서 구두 발표를 했습니다. 산업단지 숲 완충지대에서 미기상 조건이 달라질 때 피톤치드로 알려진 자연휘발성 유기화합물(NVOC)의 공간 분포와 일중 농도 변화를 분석한 연구입니다.": {
+      "en": "At the 18th World Congress on Environmental Health in Dubrovnik, Croatia (27 April – 1 May), Professor Geonwoo Kim gave an oral presentation in the ‘Innovation & Technology’ session. The study analysed how the spatial distribution and diurnal variation of natural volatile organic compounds (NVOCs), commonly known as phytoncides, change with microclimatic conditions in forest buffer zones around an industrial complex.",
+      "ja": "クロアチア・ドゥブロブニクで開かれた第18回世界環境保健学会議（4月27日–5月1日）で、金建佑教授が「Innovation & Technology」セッションで口頭発表を行いました。産業団地の森の緩衝地帯で微気象条件が変わるとき、フィトンチッドとして知られる自然揮発性有機化合物（NVOC）の空間分布と日中の濃度変化がどうなるかを分析した研究です。",
+      "zh": "在克罗地亚杜布罗夫尼克举行的第18届世界环境健康大会（4月27日—5月1日）上，金建佑教授在“Innovation & Technology”分会做了口头发表。研究分析了工业园区森林缓冲带中微气象条件变化时，被称为植物杀菌素的自然挥发性有机化合物（NVOC）的空间分布与日内浓度变化。"
+    },
+    "공식 프로그램 보기 →": {
+      "en": "View the official programme →",
+      "ja": "公式プログラムを見る →",
+      "zh": "查看官方日程 →"
+    },
+    "45편": {
+      "en": "45 papers",
+      "ja": "45編",
+      "zh": "45篇"
     },
     "Joung D., Choi Y., Kwon C., Yeom D., Kim G., Kang K., Kim Y. 외 ·": {
       "en": "Joung D., Choi Y., Kwon C., Yeom D., Kim G., Kang K., Kim Y., et al. ·",
