@@ -1020,7 +1020,7 @@ html[lang="en"] .axis-name { width: 104px; }
 
 .platform-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(16px, 2.2vw, 26px);
   margin-top: clamp(44px, 5vw, 66px);
   padding-top: clamp(38px, 4.6vw, 56px);
@@ -2307,6 +2307,7 @@ html[lang="en"] .axis-name { width: 104px; }
   .pillar-body { grid-column: 2; }
   .project-grid { grid-template-columns: 1fr; }
   .project-visual { max-width: 520px; }
+  .platform-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
