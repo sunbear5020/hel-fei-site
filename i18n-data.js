@@ -1282,10 +1282,10 @@ window.FEI_I18N_DATA = {
       "ja": "論文とお知らせ",
       "zh": "论文与动态"
     },
-    "2013년부터 지금까지 연구실이 발표한 논문 45편을 한자리에 모았습니다. 연도를 눌러 골라 보실 수 있고, 각 항목은 DOI나 원문으로 연결됩니다.": {
-      "en": "All 45 papers published by the lab since 2013, gathered in one place. Choose a year to narrow the list; each entry links to its DOI or full text.",
-      "ja": "2013年から現在までに研究室が発表した論文45編を一堂に集めました。年を押して絞り込むことができ、各項目はDOIや原文へリンクしています。",
-      "zh": "汇集实验室自2013年以来发表的45篇论文。可按年份筛选，每条均可跳转至DOI或原文。"
+    "2013년부터 지금까지 연구실이 발표한 논문 50편을 한자리에 모았습니다. 연도를 눌러 골라 보실 수 있고, 각 항목은 DOI나 원문으로 연결됩니다.": {
+      "en": "All 50 papers published by the lab since 2013, gathered in one place. Choose a year to narrow the list; each entry links to its DOI or full text.",
+      "ja": "2013年から現在までに研究室が発表した論文50編を一堂に集めました。年を押して絞り込むことができ、各項目はDOIや原文へリンクしています。",
+      "zh": "汇集实验室自2013年以来发表的50篇论文。可按年份筛选，每条均可跳转至DOI或原文。"
     },
     "News": {
       "en": "News",
@@ -1362,10 +1362,120 @@ window.FEI_I18N_DATA = {
       "ja": "公式プログラムを見る →",
       "zh": "查看官方日程 →"
     },
-    "45편": {
-      "en": "45 papers",
-      "ja": "45編",
-      "zh": "45篇"
+    "2026 산림과학 공동학술대회": {
+      "en": "2026 Joint Conference of the Korean Society of Forest Science",
+      "ja": "2026 韓国森林科学会 合同学術大会",
+      "zh": "2026 韩国森林科学会联合学术大会"
+    },
+    "2025 산림과학 공동학술대회": {
+      "en": "2025 Joint Conference of the Korean Society of Forest Science",
+      "ja": "2025 韓国森林科学会 合同学術大会",
+      "zh": "2025 韩国森林科学会联合学术大会"
+    },
+    "2024 산림과학 공동학술대회": {
+      "en": "2024 Joint Conference of the Korean Society of Forest Science",
+      "ja": "2024 韓国森林科学会 合同学術大会",
+      "zh": "2024 韩国森林科学会联合学术大会"
+    },
+    "포스터 발표": {
+      "en": "poster presentation",
+      "ja": "ポスター発表",
+      "zh": "海报发表"
+    },
+    "포스터": {
+      "en": "Poster",
+      "ja": "ポスター",
+      "zh": "海报"
+    },
+    "우수포스터상": {
+      "en": "Best Poster Award",
+      "ja": "優秀ポスター賞",
+      "zh": "优秀海报奖"
+    },
+    "프로그램북 보기": {
+      "en": "View programme book",
+      "ja": "プログラムブックを見る",
+      "zh": "查看程序手册"
+    },
+    "프로그램북 보기 →": {
+      "en": "View programme book →",
+      "ja": "プログラムブックを見る →",
+      "zh": "查看程序手册 →"
+    },
+    "송도윤, 김초윤, 송초롱, 김건우 ·": {
+      "en": "Song D., Kim C., Song C., Kim G. ·",
+      "ja": "Song D., Kim C., Song C., Kim G. ·",
+      "zh": "Song D., Kim C., Song C., Kim G. ·"
+    },
+    "박충희, 김창휴, 김건우, 최정호 ·": {
+      "en": "Park C., Kim C.H., Kim G., Choi J. ·",
+      "ja": "Park C., Kim C.H., Kim G., Choi J. ·",
+      "zh": "Park C., Kim C.H., Kim G., Choi J. ·"
+    },
+    "송도윤, 송초롱, 김초윤, 김건우 ·": {
+      "en": "Song D., Song C., Kim C., Kim G. ·",
+      "ja": "Song D., Song C., Kim C., Kim G. ·",
+      "zh": "Song D., Song C., Kim C., Kim G. ·"
+    },
+    "최예지, 김수진, 김건우, 박수진 ·": {
+      "en": "Choi Y., Kim S., Kim G., Park S. ·",
+      "ja": "Choi Y., Kim S., Kim G., Park S. ·",
+      "zh": "Choi Y., Kim S., Kim G., Park S. ·"
+    },
+    "김수진, 최예지, 김건우, 박수진 ·": {
+      "en": "Kim S., Choi Y., Kim G., Park S. ·",
+      "ja": "Kim S., Choi Y., Kim G., Park S. ·",
+      "zh": "Kim S., Choi Y., Kim G., Park S. ·"
+    },
+    "김수진, 박수진, 하시연, 이연희, 이미진, 최예지, 김건우 ·": {
+      "en": "Kim S., Park S., Ha S., Lee Y., Lee M., Choi Y., Kim G. ·",
+      "ja": "Kim S., Park S., Ha S., Lee Y., Lee M., Choi Y., Kim G. ·",
+      "zh": "Kim S., Park S., Ha S., Lee Y., Lee M., Choi Y., Kim G. ·"
+    },
+    "온열 환경 조건에 따른 도시숲 치유 중재의 심리·생리적 효과: 체계적 문헌 고찰 및 메타분석": {
+      "en": "Psychological and physiological effects of urban forest healing interventions under different thermal conditions: a systematic review and meta-analysis",
+      "ja": "温熱環境条件に応じた都市森林癒し介入の心理・生理的効果：体系的文献レビューとメタ分析",
+      "zh": "不同热环境条件下城市森林疗愈干预的心理与生理效应：系统综述与meta分析"
+    },
+    "산림 기반 중재가 산재근로자의 가족 구성원 미치는 영향": {
+      "en": "Effects of forest-based interventions on the family members of workers with industrial injuries",
+      "ja": "森林を基盤とする介入が産業災害労働者の家族構成員に及ぼす影響",
+      "zh": "森林为基础的干预对工伤劳动者家庭成员的影响"
+    },
+    "산림치유공간 내 온열환경이 건강에 미치는 영향: 체계적 문헌 분석": {
+      "en": "Effects of thermal environments in forest healing spaces on health: a systematic literature review",
+      "ja": "森林癒し空間の温熱環境が健康に及ぼす影響：体系的文献分析",
+      "zh": "森林疗愈空间热环境对健康的影响：系统文献分析"
+    },
+    "사용자 시선 추적 장비를 이용한 산림치유 영상 평가 기법 연구": {
+      "en": "Evaluation methods for forest healing videos using eye-tracking devices",
+      "ja": "ユーザーの視線追跡装置を用いた森林癒し映像の評価手法研究",
+      "zh": "利用用户眼动追踪设备评价森林疗愈影像的方法研究"
+    },
+    "산림치유지도사 양성현황과 교육과정 개선에 관한 연구": {
+      "en": "Training status and curriculum improvement for forest healing instructors",
+      "ja": "森林癒し指導者の養成状況と教育課程の改善に関する研究",
+      "zh": "森林疗愈指导师培养现状与课程改进研究"
+    },
+    "농업생명과학연구 (Journal of Agriculture & Life Science)": {
+      "en": "Journal of Agriculture & Life Science",
+      "ja": "農業生命科学研究",
+      "zh": "农业生命科学研究"
+    },
+    "2026 산림과학 공동학술대회 우수포스터상 수상 및 포스터 발표": {
+      "en": "Best Poster Award and poster presentation at the 2026 KSFS Joint Conference",
+      "ja": "2026 韓国森林科学会 合同学術大会 優秀ポスター賞受賞・ポスター発表",
+      "zh": "2026 韩国森林科学会联合学术大会 优秀海报奖获奖及海报发表"
+    },
+    "서울대학교 관악캠퍼스에서 열린 2026 산림과학 공동학술대회에서 송도윤·김초윤·송초롱·김건우의 ‘온열 환경 조건에 따른 도시숲 치유 중재의 심리·생리적 효과’가 우수포스터상을 받았습니다. 한국산림복지진흥원과 함께한 산재근로자 가족 대상 산림 기반 중재 연구도 포스터로 발표했습니다.": {
+      "en": "At the 2026 Joint Conference of the Korean Society of Forest Science, held at Seoul National University’s Gwanak Campus, the poster by Song Doyun, Kim Choyun, Song Chorong and Kim Geonwoo, ‘Psychological and physiological effects of urban forest healing interventions under different thermal conditions’, received the Best Poster Award. A forest-based intervention study for the family members of workers with industrial injuries, carried out with the Korea Forest Welfare Institute, was also presented as a poster.",
+      "ja": "ソウル大学校冠岳キャンパスで開かれた2026 韓国森林科学会 合同学術大会で、宋到潤・金初潤・宋楚龍・金建佑の「温熱環境条件に応じた都市森林癒し介入の心理・生理的効果」が優秀ポスター賞を受賞しました。韓国森林福祉振興院と共同で行った産業災害労働者の家族を対象とする森林基盤介入研究もポスター発表しました。",
+      "zh": "在首尔大学冠岳校区举行的2026韩国森林科学会联合学术大会上，宋到润、金初润、宋楚龙、金建佑的《不同热环境条件下城市森林疗愈干预的心理与生理效应》获得优秀海报奖。与韩国森林福祉振兴院共同开展的工伤劳动者家庭成员森林干预研究也以海报形式发表。"
+    },
+    "50편": {
+      "en": "50 papers",
+      "ja": "50編",
+      "zh": "50篇"
     },
     "Joung D., Choi Y., Kwon C., Yeom D., Kim G., Kang K., Kim Y. 외 ·": {
       "en": "Joung D., Choi Y., Kwon C., Yeom D., Kim G., Kang K., Kim Y., et al. ·",
