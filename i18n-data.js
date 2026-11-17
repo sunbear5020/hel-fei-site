@@ -1237,6 +1237,11 @@ window.FEI_I18N_DATA = {
       "ja": "ハノイ・チャンアン",
       "zh": "河内·长安"
     },
+    "가을 풍경": {
+      "en": "Autumn scenery",
+      "ja": "秋の風景",
+      "zh": "秋日风景"
+    },
     "기타": {
       "en": "Other",
       "ja": "その他",
@@ -2221,6 +2226,26 @@ window.FEI_I18N_DATA = {
       "en": "A bowl of rice noodles",
       "ja": "ライスヌードル一杯",
       "zh": "一碗米粉"
+    },
+    "은행잎이 내려앉은 오후": {
+      "en": "An afternoon under fallen ginkgo leaves",
+      "ja": "銀杏の葉が降り積もる午後",
+      "zh": "银杏叶飘落的午后"
+    },
+    "단풍으로 물든 단지 풍경": {
+      "en": "Autumn colours across the grounds",
+      "ja": "紅葉に染まる団地の風景",
+      "zh": "红叶染尽的园区风景"
+    },
+    "가을 하늘 아래 메타세쿼이아": {
+      "en": "Metasequoias under an autumn sky",
+      "ja": "秋空の下のメタセコイア",
+      "zh": "秋空下的水杉"
+    },
+    "가을빛이 깊어진 길": {
+      "en": "A road deepening in autumn light",
+      "ja": "秋の色が深まる道",
+      "zh": "秋色渐深的路"
     },
     "김건우 교수": {
       "en": "Professor Geonwoo Kim",

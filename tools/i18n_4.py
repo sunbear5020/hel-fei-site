@@ -148,6 +148,15 @@ CAPTIONS = [
     ("시장 골목", "Market alley", "市場の路地", "市场小巷"),
     ("주스 노점", "Juice stall", "ジュース屋台", "果汁摊"),
     ("쌀국수 한 그릇", "A bowl of rice noodles", "ライスヌードル一杯", "一碗米粉"),
+    # ---- autumn (November 2026) ----
+    ("은행잎이 내려앉은 오후", "An afternoon under fallen ginkgo leaves",
+     "銀杏の葉が降り積もる午後", "银杏叶飘落的午后"),
+    ("단풍으로 물든 단지 풍경", "Autumn colours across the grounds",
+     "紅葉に染まる団地の風景", "红叶染尽的园区风景"),
+    ("가을 하늘 아래 메타세쿼이아", "Metasequoias under an autumn sky",
+     "秋空の下のメタセコイア", "秋空下的水杉"),
+    ("가을빛이 깊어진 길", "A road deepening in autumn light",
+     "秋の色が深まる道", "秋色渐深的路"),
 ]
 
 EXTRA = [

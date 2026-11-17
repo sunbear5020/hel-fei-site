@@ -386,6 +386,34 @@
       "alt": "고기와 채소를 올린 쌀국수 한 그릇",
       "caption": "쌀국수 한 그릇",
       "tag": "방콕"
+    },
+    {
+      "src": "assets/gallery/full/autumn-ginkgo-leaves.jpg",
+      "thumb": "assets/gallery/thumb/autumn-ginkgo-leaves.jpg",
+      "alt": "노란 은행나무 아래로 은행잎이 흩뿌려진 단지 풍경",
+      "caption": "은행잎이 내려앉은 오후",
+      "tag": "가을 풍경"
+    },
+    {
+      "src": "assets/gallery/full/autumn-courtyard.jpg",
+      "thumb": "assets/gallery/thumb/autumn-courtyard.jpg",
+      "alt": "노란 은행나무와 붉은 단풍이 어우러진 아파트 단지 마당",
+      "caption": "단풍으로 물든 단지 풍경",
+      "tag": "가을 풍경"
+    },
+    {
+      "src": "assets/gallery/full/autumn-metasequoia-sky.jpg",
+      "thumb": "assets/gallery/thumb/autumn-metasequoia-sky.jpg",
+      "alt": "단풍 든 메타세쿼이아 나무 사이로 올려다본 흐린 가을 하늘",
+      "caption": "가을 하늘 아래 메타세쿼이아",
+      "tag": "가을 풍경"
+    },
+    {
+      "src": "assets/gallery/full/autumn-foliage-road.jpg",
+      "thumb": "assets/gallery/thumb/autumn-foliage-road.jpg",
+      "alt": "붉은 단풍나무와 노란 은행나무, 메타세쿼이아가 늘어선 길",
+      "caption": "가을빛이 깊어진 길",
+      "tag": "가을 풍경"
     }
   ]
 }
