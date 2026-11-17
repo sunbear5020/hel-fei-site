@@ -982,6 +982,11 @@ window.FEI_I18N_DATA = {
       "ja": "この画面は研究室のデモ用試作です。スコアと推薦文は公開データに基づく重み付きモデルの計算結果であり、実際の予約・運営情報は訪問前に各施設へご確認ください。",
       "zh": "本页面为实验室演示用原型。评分与推荐文案是基于公开数据的加权模型计算结果，实际预约与运营信息请在到访前向各设施核实。"
     },
+    "© 2026 FEI · HEL 인간환경연구실(김건우 교수), 경상국립대학교. 「숲결(Soopgyeol)」의 기획·알고리즘·디자인·콘텐츠에 대한 저작권은 FEI · HEL 인간환경연구실에 있으며, 무단 복제·배포·상업적 이용을 금합니다.": {
+      "en": "© 2026 FEI · HEL (Prof. Geonwoo Kim), Gyeongsang National University. All rights to the concept, algorithm, design, and content of Soopgyeol (숲결) belong to FEI · HEL. Unauthorized reproduction, distribution, or commercial use is prohibited.",
+      "ja": "© 2026 FEI · HEL 人間環境研究室（キム・ゴヌ教授）、慶尚国立大学校。「Soopgyeol（숲결）」の企画・アルゴリズム・デザイン・コンテンツに関する著作権は FEI · HEL に帰属し、無断複製・配布・商業利用を禁じます。",
+      "zh": "© 2026 FEI · HEL 人类与环境实验室（金建宇教授），庆尚国立大学。「Soopgyeol（숲결）」的策划、算法、设计与内容版权归 FEI · HEL 所有，禁止未经授权的复制、传播或商业使用。"
+    },
     "숲결 추천 구조 도식": {
       "en": "Diagram of the Soopgyeol recommendation model",
       "ja": "スプキョル推薦構造の図",
