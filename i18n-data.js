@@ -102,6 +102,11 @@ window.FEI_I18N_DATA = {
       "ja": "スプキョル",
       "zh": "Soopgyeol"
     },
+    "랩 앱": {
+      "en": "Lab Apps",
+      "ja": "ラボアプリ",
+      "zh": "实验室应用"
+    },
     "경상국립대학교 환경산림과학부 · 산림환경자원학과": {
       "en": "College of Agriculture & Life Sciences · Dept. of Forest Environmental Resources, Gyeongsang National University",
       "ja": "慶尚国立大学校 環境林産科学部・森林環境資源学科",
