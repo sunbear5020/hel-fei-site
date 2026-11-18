@@ -379,5 +379,13 @@ EXTRA += [
      "He appeared as a forest healing researcher in the episode on how trail walking helps cancer and arthritis patients recover their strength.",
      "周回路ウォーキングががん・関節炎患者の体力回復に与える影響を扱った回に、森林癒しの研究者として出演しました。",
      "在以环山步道行走对癌症、关节炎患者体力恢复的影响为主题的节目中，作为森林疗愈研究者出演。"),
+    ("서경방송(SCS) 《“바다만 있는 게 아냐..남해 산림은 탈바꿈 중”》 — 남해 산림휴양 인프라 보도",
+     "SCS (Seogyeong Broadcasting) 《\"It's not just the sea: Namhae's forests are being transformed\"》 — report on forest recreation infrastructure in Namhae",
+     "西京放送(SCS)「海だけじゃない…南海の森林は生まれ変わる」 — 南海の森林休養インフラ報道",
+     "西京放送(SCS)《“不只是大海……南海的森林正在蜕变”》 — 南海森林休养基础设施报道"),
+    ("남해군이 힐링 숲타운과 망운산 치유센터 등 산림휴양 시설을 확충하는 소식에 전문가 전화 인터뷰로 참여했습니다. “산림휴양시설 확대는 단순히 관광산업이 아니라 복지와 지역 경제를 함께 견인하는 전략”이라며 숲 기반 사업의 지역 재도약 가능성을 짚었습니다. 영상 2분 43초부터 볼 수 있습니다.",
+     "He joined a phone interview as the expert voice in a report on Namhae County's expansion of forest recreation facilities, including a healing forest town and a healing centre on Mount Mangun. He called wider forest recreation facilities \"not simply a tourism business but a strategy that pulls welfare and the local economy together,\" and pointed to forest-based projects as a chance for regional renewal. The interview begins at 2:43 in the video.",
+     "南海郡がヒーリングの森タウンや望雲山の癒しセンターなど森林休養施設を拡充するというニュースに、専門家として電話インタビューで参加しました。「森林休養施設の拡大は単なる観光産業ではなく、福祉と地域経済を共に牽引する戦略」と述べ、森を基盤とした事業が地域再生の機会になり得る点を指摘しました。映像の2分43秒からご覧いただけます。",
+     "南海郡扩建疗愈森林小镇、望云山疗愈中心等森林休养设施的消息中，他作为专家接受电话采访。他表示“扩大森林休养设施不仅是旅游产业，更是同时带动福利与地方经济的战略”，并指出森林基础事业可成为地方再腾飞的机会。可从视频2分43秒处观看。"),
     ("원문 보기", "Open original", "原文を見る", "查看原文"),
 ]
