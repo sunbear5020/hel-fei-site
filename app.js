@@ -206,7 +206,7 @@
 
   /* ---------- Publication year filter ---------- */
 
-  var pubFilterBtns = Array.prototype.slice.call(doc.querySelectorAll(".pub-filter-btn"));
+  var pubFilterBtns = Array.prototype.slice.call(doc.querySelectorAll(".pub-list .pub-filter-btn"));
   var pubItems = Array.prototype.slice.call(doc.querySelectorAll("#pubItems > li"));
 
   if (pubFilterBtns.length && pubItems.length) {
@@ -252,6 +252,32 @@
     projFilterBtns.forEach(function (btn) {
       btn.addEventListener("click", function () {
         applyProjYear(btn.getAttribute("data-year"));
+      });
+    });
+  }
+
+  /* ---------- Media type filter ---------- */
+
+  var mediaFilterBtns = Array.prototype.slice.call(doc.querySelectorAll("#mediaFilter .pub-filter-btn"));
+  var mediaItems = Array.prototype.slice.call(doc.querySelectorAll("#mediaItems > li"));
+
+  if (mediaFilterBtns.length && mediaItems.length) {
+    var applyMediaType = function (type) {
+      mediaItems.forEach(function (li) {
+        var show = type === "all" || li.getAttribute("data-type") === type;
+        if (show) li.removeAttribute("hidden");
+        else li.setAttribute("hidden", "");
+      });
+      mediaFilterBtns.forEach(function (btn) {
+        var on = btn.getAttribute("data-type") === type;
+        btn.classList.toggle("is-active", on);
+        btn.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    };
+
+    mediaFilterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyMediaType(btn.getAttribute("data-type"));
       });
     });
   }

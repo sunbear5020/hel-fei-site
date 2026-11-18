@@ -2467,3 +2467,98 @@ html[lang="en"] .axis-name { width: 104px; }
   .platform-card { background: #fff; }
   .platform-card::after { display: none; }
 }
+
+/* ---------------- Media & policy ---------------- */
+
+.media-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.media-list > li {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) auto;
+  gap: clamp(14px, 2vw, 24px);
+  align-items: start;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.media-list > li[hidden] { display: none; }
+.media-date {
+  margin: 3px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  color: var(--clay-deep);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.media-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 7px;
+}
+.media-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  color: var(--text-soft);
+  background: var(--cream);
+}
+.media-org {
+  font-size: 10.5px;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.media-title {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+.media-note {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 12.5px;
+  line-height: 1.75;
+  color: var(--text-soft);
+}
+.media-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.media-link:hover,
+.media-link:focus-visible {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
+}
+
+@media (max-width: 720px) {
+  .media-list > li {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 14px;
+    padding: 18px 0;
+  }
+  .media-date {
+    grid-column: 1 / -1;
+    margin: 0;
+  }
+  .media-title { font-size: 15px; }
+}

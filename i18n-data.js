@@ -2621,6 +2621,141 @@ window.FEI_I18N_DATA = {
       "en": "From lighthouse to bear: forest, water and people, with a fox and a reindeer walking together.",
       "ja": "灯台から熊まで、キツネとトナカイが一緒に歩く森と水と人の情景。",
       "zh": "从灯塔到小熊，狐狸与驯鹿一同走过的森林、水与人的景象。"
+    },
+    "방송·언론·포럼": {
+      "en": "Broadcasts, press & forums",
+      "ja": "放送・報道・フォーラム",
+      "zh": "广播·媒体·论坛"
+    },
+    "방송과 유튜브, 국회와 포럼 무대에서 연구실이 전한 이야기를 모았습니다. 유형을 눌러 골라 보실 수 있고, 각 항목은 원문이나 영상으로 연결됩니다.": {
+      "en": "Talks the lab gave on air, on YouTube, at the National Assembly and at forums. Filter by type — each entry links to the original article or video.",
+      "ja": "放送やYouTube、国会やフォーラムの場で研究室が伝えた話を集めました。種類を選んでご覧いただけます。各項目は原文または映像にリンクしています。",
+      "zh": "汇集了研究室在广播、YouTube、国会与论坛上传递的内容。可按类型筛选，每项均链接至原文或视频。"
+    },
+    "유형별로 보기": {
+      "en": "Filter by type",
+      "ja": "種類で絞り込む",
+      "zh": "按类型筛选"
+    },
+    "방송·유튜브": {
+      "en": "Broadcast & YouTube",
+      "ja": "放送・YouTube",
+      "zh": "广播·YouTube"
+    },
+    "국회·정책": {
+      "en": "Assembly & policy",
+      "ja": "国会・政策",
+      "zh": "国会·政策"
+    },
+    "심포지엄·포럼": {
+      "en": "Symposia & forums",
+      "ja": "シンポジウム・フォーラム",
+      "zh": "研讨会·论坛"
+    },
+    "언론 보도": {
+      "en": "Press coverage",
+      "ja": "報道",
+      "zh": "媒体报道"
+    },
+    "방송 · 유튜브": {
+      "en": "Broadcast · YouTube",
+      "ja": "放送 · YouTube",
+      "zh": "广播 · YouTube"
+    },
+    "국회 · 정책": {
+      "en": "Assembly · Policy",
+      "ja": "国会 · 政策",
+      "zh": "国会 · 政策"
+    },
+    "심포지엄 · 포럼": {
+      "en": "Symposium · Forum",
+      "ja": "シンポジウム · フォーラム",
+      "zh": "研讨会 · 论坛"
+    },
+    "경상국립대학교 환경산림과학부 · 교수": {
+      "en": "College of Agriculture & Life Sciences, Gyeongsang National University · Professor",
+      "ja": "慶尚国立大学校 環境林産科学部 · 教授",
+      "zh": "庆尚国立大学 环境林产科学部 · 教授"
+    },
+    "경상국립대학교 · 교수": {
+      "en": "Gyeongsang National University · Professor",
+      "ja": "慶尚国立大学校 · 教授",
+      "zh": "庆尚国立大学 · 教授"
+    },
+    "국립산림과학원 산림휴먼서비스연구과 · 박사": {
+      "en": "Forest Human Service Division, National Institute of Forest Science · Ph.D.",
+      "ja": "国立山林科学院 山林ヒューマンサービス研究科 · 博士",
+      "zh": "国立山林科学院 森林人文服务研究科 · 博士"
+    },
+    "국립산림과학원 · 박사": {
+      "en": "National Institute of Forest Science · Ph.D.",
+      "ja": "国立山林科学院 · 博士",
+      "zh": "国立山林科学院 · 博士"
+    },
+    "‘2026 가명정보 활용 경진대회’ 대상 수상 보도": {
+      "en": "Press coverage: Grand Prize at the 2026 Pseudonymized Data Utilization Competition",
+      "ja": "「2026 仮名情報活用コンテスト」大賞 受賞報道",
+      "zh": "“2026 去标识化信息利用竞赛”大奖获奖报道"
+    },
+    "지역과 전문 언론 여러 곳이 공동연구팀의 대상 수상을 보도했습니다. 등산 앱 GPS 기록과 건강보험 데이터를 결합해 3만 2,737명을 추적한 연구입니다.": {
+      "en": "Regional and specialist outlets reported the joint team's Grand Prize. The study linked hiking-app GPS records with national health insurance data to follow 32,737 people.",
+      "ja": "地域紙や専門メディア各紙が共同研究チームの大賞受賞を報じました。登山アプリのGPS記録と健康保険データを結合し、3万2,737人を追跡した研究です。",
+      "zh": "多家地方与专业媒体报道了共同研究团队获得大奖。该研究将登山应用的GPS记录与健康保险数据结合，追踪了32,737人。"
+    },
+    "경상남도 산림복지 담당자 역량강화 교육 — ‘최근 산림휴양 트렌드’ 특강": {
+      "en": "Gyeongnam forest welfare staff training — lecture on recent forest recreation trends",
+      "ja": "慶尚南道 森林福祉担当者 力量強化研修 — 「最近の森林休養トレンド」特別講義",
+      "zh": "庆尚南道森林福祉负责人能力强化培训 — “近期森林休养趋势”专题讲座"
+    },
+    "시·군 산림복지 담당자 50여 명을 대상으로 최근 산림휴양 트렌드와 정책 방향을 강의했습니다.": {
+      "en": "A lecture on current forest recreation trends and policy directions for about 50 city and county forest welfare officers.",
+      "ja": "市・郡の森林福祉担当者約50名を対象に、最近の森林休養トレンドと政策の方向を講義しました。",
+      "zh": "面向50余名市郡森林福祉负责人，讲授了近期森林休养趋势与政策方向。"
+    },
+    "「산림치유 활성화 및 산림치유산업 진흥에 관한 법률안」 입법공청회 토론": {
+      "en": "Panel discussion at the legislative hearing on the Forest Healing Promotion and Industry Act",
+      "ja": "「森林癒しの活性化及び森林癒し産業の振興に関する法律案」立法公聴会での討論",
+      "zh": "《森林疗愈活化及森林疗愈产业振兴法案》立法听证会讨论"
+    },
+    "국회의원회관에서 열린 공청회에서 산림치유법 제정과 의료·보건 연계 정보체계 구축에 대해 토론자로 참여했습니다.": {
+      "en": "At the hearing in the National Assembly Members' Office Building, he joined the panel on enacting the bill and building a health-linked information system.",
+      "ja": "国会議員会館で開かれた公聴会で、森林癒し法の制定と医療・保健連携の情報体系構築について討論者として参加しました。",
+      "zh": "在国会议员会馆举行的听证会上，作为讨论者参与了森林疗愈法制定及医疗·保健联动信息体系建设的讨论。"
+    },
+    "VR·AR 산림 실감콘텐츠의 심리 회복 효과 발표": {
+      "en": "Findings on the psychological benefits of VR and AR forest content",
+      "ja": "VR・AR森林没入型コンテンツの心理的回復効果を発表",
+      "zh": "发布VR·AR森林沉浸式内容的心理恢复效果"
+    },
+    "국내외 연구 21건을 분석해, 가상의 숲을 10분 이상 경험할 때 부정적 감정이 더 완화된다는 결과를 발표했습니다.": {
+      "en": "A review of 21 Korean and international studies found that ten minutes or more in a virtual forest eases negative emotions more strongly.",
+      "ja": "国内外の研究21件を分析し、仮想の森を10分以上体験すると否定的な感情がより和らぐという結果を発表しました。",
+      "zh": "分析国内外21项研究后发布结果：体验虚拟森林10分钟以上时，负面情绪缓解更明显。"
+    },
+    "2022 제주 산림치유 활성화 포럼 — 서귀포치유의 숲 치유인자 조사 발표": {
+      "en": "2022 Jeju forest healing forum — presenting the Seogwipo healing forest factor survey",
+      "ja": "2022 済州森林癒し活性化フォーラム — 西帰浦癒しの森の癒し因子調査を発表",
+      "zh": "2022 济州森林疗愈活化论坛 — 发布西归浦疗愈之森疗愈因子调查"
+    },
+    "서귀포시가 주최한 포럼에서 서귀포치유의 숲의 치유인자 조사 결과를 주제발표했습니다. 영상 10분 47초부터 볼 수 있습니다.": {
+      "en": "At the forum hosted by Seogwipo City, he presented the survey of healing factors in the Seogwipo healing forest. The talk begins at 10:47 in the video.",
+      "ja": "西帰浦市が主催したフォーラムで、西帰浦癒しの森の癒し因子調査の結果を発表しました。映像の10分47秒からご覧いただけます。",
+      "zh": "在西归浦市主办的论坛上，发表了西归浦疗愈之森疗愈因子调查结果。可从视频10分47秒处观看。"
+    },
+    "KBS1 《생로병사의 비밀》 816회 — 둘레길 걷기와 피톤치드": {
+      "en": "KBS1 《The Secret of Life and Death》 ep. 816 — trail walking and phytoncides",
+      "ja": "KBS1「生老病死の秘密」第816回 — 周回路ウォーキングとフィトンチッド",
+      "zh": "KBS1《生老病死的秘密》第816集 — 环山步道行走与植物杀菌素"
+    },
+    "둘레길 걷기가 암·관절염 환자의 체력 회복에 미치는 영향을 다룬 편에 산림치유 연구자로 출연했습니다.": {
+      "en": "He appeared as a forest healing researcher in the episode on how trail walking helps cancer and arthritis patients recover their strength.",
+      "ja": "周回路ウォーキングががん・関節炎患者の体力回復に与える影響を扱った回に、森林癒しの研究者として出演しました。",
+      "zh": "在以环山步道行走对癌症、关节炎患者体力恢复的影响为主题的节目中，作为森林疗愈研究者出演。"
+    },
+    "원문 보기": {
+      "en": "Open original",
+      "ja": "原文を見る",
+      "zh": "查看原文"
     }
   },
   "html": {
