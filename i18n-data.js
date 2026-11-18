@@ -1067,6 +1067,21 @@ window.FEI_I18N_DATA = {
       "ja": "設計中 · アイトラッキング分析",
       "zh": "设计中 · 眼动追踪分析"
     },
+    "Live · v0.1 Core": {
+      "en": "Live · v0.1 Core",
+      "ja": "公開中 · v0.1 コア",
+      "zh": "已上线 · v0.1 核心"
+    },
+    "워크벤치 열기": {
+      "en": "Open workbench",
+      "ja": "ワークベンチを開く",
+      "zh": "打开工作台"
+    },
+    "블로그": {
+      "en": "Naver Blog",
+      "ja": "ブログ",
+      "zh": "博客"
+    },
     "혈압(BP)과 심박수(HR), 심박변이도(HRV)로 도시숲과 산림치유환경에서의 생리적 반응을 정량적으로 평가하는 연구 플랫폼입니다. 웨어러블 기기가 수집한 신호를 환경 노출 정보와 함께 분석하는 구조를 설계하고 있습니다.": {
       "en": "A research platform that measures physiological responses in urban forests and forest healing environments through blood pressure, heart rate and heart rate variability. We are designing the structure in which signals collected by wearables are analysed together with environmental exposure data.",
       "ja": "血圧（BP）、心拍数（HR）、心拍変動（HRV）によって、都市の森や森林癒し環境での生理的反応を定量的に評価する研究プラットフォームです。ウェアラブル機器が集めた信号を環境曝露の情報とともに解析する仕組みを設計しています。",
