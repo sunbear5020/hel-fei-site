@@ -40,7 +40,9 @@ class Collector(HTMLParser):
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         skip = any(s for _, s in self.stack)
-        skip = skip or "data-i18n-html" in attrs or "lang" in attrs
+        # <html lang="ko"> states the document language; it is not a block that
+        # must be skipped, and treating it as one made the coverage check vacuous.
+        skip = skip or "data-i18n-html" in attrs or ("lang" in attrs and tag != "html")
         for name, value in attrs.items():
             if name in ATTRS and value and re.search(r"[가-힣]", value):
                 self.attrs.append(value)

@@ -1082,10 +1082,15 @@ window.FEI_I18N_DATA = {
       "ja": "ブログ",
       "zh": "博客"
     },
-    "혈압(BP)과 심박수(HR), 심박변이도(HRV)로 도시숲과 산림치유환경에서의 생리적 반응을 정량적으로 평가하는 연구 플랫폼입니다. 웨어러블 기기가 수집한 신호를 환경 노출 정보와 함께 분석하는 v0.1 코어를 공개했습니다.": {
-      "en": "A research platform that measures physiological responses in urban forests and forest healing environments through blood pressure, heart rate and heart rate variability. We analyse the signals collected by wearables alongside environmental exposure data, and have released the v0.1 core.",
-      "ja": "血圧（BP）、心拍数（HR）、心拍変動（HRV）によって、都市の森や森林癒し環境での生理的反応を定量的に評価する研究プラットフォームです。ウェアラブル機器が収集した信号を環境曝露情報とともに分析するv0.1コアを公開しました。",
-      "zh": "以血压（BP）、心率（HR）与心率变异性（HRV）定量评估城市森林与森林疗愈环境中生理反应的研究平台。现已公开将可穿戴设备采集的信号与环境暴露信息结合分析的 v0.1 核心。"
+    "혈압(BP)과 심박수(HR), 심박변이도(HRV)로 도시숲과 산림치유환경에서의 생리적 반응을 정량적으로 평가하는 연구 플랫폼입니다. v0.2는 혈압·웨어러블·환경 스트림을 시간 허용 오차로 결합하고, 같은 피험자의 두 조건을 대응표본으로 비교하며, 환경 노출과의 상관(ρ·회귀)과 지표별 근거 경계를 함께 내보냅니다.": {
+      "en": "A research platform that quantifies physiological responses in urban forests and forest-healing environments from blood pressure (BP), heart rate (HR) and heart rate variability (HRV). v0.2 aligns separate blood-pressure, wearable and environmental streams by a time tolerance, compares the same participant's two conditions as paired samples, and exports environmental correlations (ρ, regression) alongside the evidence boundary of each indicator.",
+      "ja": "血圧（BP）・心拍数（HR）・心拍変動（HRV）から、都市の森や森林癒し環境での生理的反応を定量的に評価する研究プラットフォームです。v0.2は血圧・ウェアラブル・環境のストリームを時間許容差で結合し、同一被験者の二条件を対応標本として比較し、環境曝露との相関（ρ・回帰）と指標ごとの根拠の境界を併せて出力します。",
+      "zh": "以血压（BP）、心率（HR）与心率变异性（HRV）定量评估城市森林与森林疗愈环境中生理反应的研究平台。v0.2 按时间容差合并血压、可穿戴与环境数据流，将同一受试者的两种条件作为配对样本比较，并输出与环境暴露的相关（ρ、回归）及各项指标的适用边界。"
+    },
+    "경상국립대학교 김건우 교수 | FEI · HEL 인간환경연구실 (산림환경자원학과)": {
+      "en": "Prof. Geonwoo Kim, Gyeongsang National University | FEI · HEL Human & Environmental Lab (Dept. of Forest Environmental Resources)",
+      "ja": "慶尚国立大学 金建佑 教授 | FEI · HEL 人間環境研究室（森林環境資源学科）",
+      "zh": "庆尚国立大学 金建佑 教授 | FEI · HEL 人类环境研究室（森林环境资源学科）"
     },
     "측정 지표": {
       "en": "Measures",
