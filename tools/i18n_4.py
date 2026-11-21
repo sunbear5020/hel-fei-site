@@ -262,6 +262,18 @@ CAPTIONS += [
      "在顺天湾自然生态馆展望台透过望远镜眺望湿地"),
 ]
 
+CAPTIONS += [
+    # 제자 결혼식 주례 (2026-11-21) — 사진첩 캡션 + 라이트박스 이미지 설명(alt)
+    ("제자의 결혼식 주례",
+     "Officiating a student's wedding",
+     "教え子の結婚式で司式",
+     "为弟子主持婚礼"),
+    ("꽃 장식이 어우러진 예식장 단상에서 제자의 결혼식 주례를 맡은 김건우 교수",
+     "Professor Geonwoo Kim officiating a student's wedding at a flower-decorated chapel podium",
+     "花飾りに囲まれた式場の壇上で教え子の結婚式の司式を務める金建佑教授",
+     "在花饰环绕的礼堂礼台上为弟子婚礼主持的金建佑教授"),
+]
+
 EXTRA = [
     ("김건우 교수", "Professor Geonwoo Kim", "金建佑教授", "金建佑教授"),
     ("연도별로 논문 보기", "Filter publications by year", "年別に論文を見る", "按年份查看论文"),
