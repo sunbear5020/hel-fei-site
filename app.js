@@ -340,7 +340,7 @@
     if (!photo) return;
     if (lbImage) {
       lbImage.src = photo.src || photo.thumb;
-      lbImage.alt = photo.alt || photo.caption || "";
+      lbImage.alt = photo.alt ? T(photo.alt) : (photo.caption ? T(photo.caption) : "");
     }
     if (lbCaption) lbCaption.textContent = photo.caption ? T(photo.caption) : "";
     if (lbCount) lbCount.textContent = lbPos + 1 + " / " + lbList.length;

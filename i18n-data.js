@@ -1387,6 +1387,11 @@ window.FEI_I18N_DATA = {
       "ja": "日々の暮らし",
       "zh": "日常"
     },
+    "순천만": {
+      "en": "Suncheon Bay",
+      "ja": "順天湾",
+      "zh": "顺天湾"
+    },
     "기타": {
       "en": "Other",
       "ja": "その他",
@@ -2546,6 +2551,66 @@ window.FEI_I18N_DATA = {
       "en": "Seafood kalguksu with plenty of clams",
       "ja": "貝たっぷりの海鮮カルグクス",
       "zh": "蛤蜊满满的海鲜刀削面"
+    },
+    "순천만 S자 수로와 일몰": {
+      "en": "The S-curve channel of Suncheon Bay at sunset",
+      "ja": "順天湾のS字水路と夕日",
+      "zh": "顺天湾的S形水道与日落"
+    },
+    "용산전망대의 노을": {
+      "en": "Sunset from the Yongsan Observatory",
+      "ja": "龍山展望台の夕焼け",
+      "zh": "龙山展望台的晚霞"
+    },
+    "황금빛 갈대밭과 S자 물길": {
+      "en": "Golden reeds and the S-curve waterway",
+      "ja": "黄金色の葦原とS字の水路",
+      "zh": "金黄色的芦苇荡与S形水道"
+    },
+    "갈대밭 너머 가을 산": {
+      "en": "Autumn mountains beyond the reeds",
+      "ja": "葦原の向こうの秋の山",
+      "zh": "芦苇荡那一边的秋山"
+    },
+    "순천만 습지의 오후 빛": {
+      "en": "Afternoon light on the Suncheon Bay wetland",
+      "ja": "順天湾湿地の午後の光",
+      "zh": "顺天湾湿地午后的光"
+    },
+    "순천만 전망대 망원경과 들판": {
+      "en": "Telescopes and fields at the Suncheon Bay observatory",
+      "ja": "順天湾展望台の望遠鏡と野原",
+      "zh": "顺天湾展望台的望远镜与原野"
+    },
+    "용산전망대에서 내려다본 순천만 S자 물길과 붉은 노을": {
+      "en": "The S-curve waterway and red sunset glow of Suncheon Bay seen from the Yongsan Observatory",
+      "ja": "龍山展望台から見下ろした順天湾のS字水路と赤い夕焼け",
+      "zh": "从龙山展望台俯瞰的顺天湾S形水道与绯红晚霞"
+    },
+    "순천만 용산전망대 데크 위에서 노을을 바라보는 사람들": {
+      "en": "People watching the sunset from the deck of the Yongsan Observatory at Suncheon Bay",
+      "ja": "順天湾の龍山展望台デッキで夕日を眺める人々",
+      "zh": "在顺天湾龙山展望台平台上看日落的人们"
+    },
+    "석양빛에 물든 순천만 갈대밭 사이로 흐르는 S자 수로": {
+      "en": "An S-curve channel winding through the reeds of Suncheon Bay in the evening light",
+      "ja": "夕日に染まる順天湾の葦原を縫って流れるS字の水路",
+      "zh": "夕阳映照下穿过顺天湾芦苇荡的S形水道"
+    },
+    "순천만 갈대밭 뒤로 단풍과 칩엽수가 어우러진 산 능선": {
+      "en": "A mountain ridge of autumn colour and evergreens behind the reeds of Suncheon Bay",
+      "ja": "順天湾の葦原の背後に広がる紅葉と針葉樹の尾根",
+      "zh": "顺天湾芦苇荡后方红叶与针叶树交织的山脊"
+    },
+    "잔잔한 순천만 습지 수면 위로 비친 구름과 햇살": {
+      "en": "Clouds and sunlight reflected on the still water of the Suncheon Bay wetland",
+      "ja": "静かな順天湾湿地の水面に映る雲と日差し",
+      "zh": "倒映在平静顺天湾湿地水面上的云与阳光"
+    },
+    "순천만 자연생태관 전망대에서 망원경으로 습지를 바라보는 모습": {
+      "en": "Looking out over the wetland through telescopes at the Suncheon Bay Ecological Museum observatory",
+      "ja": "順天湾自然生態館の展望台で望遠鏡越しに湿地を眺める様子",
+      "zh": "在顺天湾自然生态馆展望台透过望远镜眺望湿地"
     },
     "김건우 교수": {
       "en": "Professor Geonwoo Kim",

@@ -631,6 +631,48 @@
       "alt": "조개가 푸짐한 해물칼국수",
       "caption": "조개가 푸짐한 해물칼국수",
       "tag": "일상"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-sunset-channel.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-sunset-channel.jpg",
+      "alt": "용산전망대에서 내려다본 순천만 S자 물길과 붉은 노을",
+      "caption": "순천만 S자 수로와 일몰",
+      "tag": "순천만"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-observatory-deck.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-observatory-deck.jpg",
+      "alt": "순천만 용산전망대 데크 위에서 노을을 바라보는 사람들",
+      "caption": "용산전망대의 노을",
+      "tag": "순천만"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-reed-sunset.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-reed-sunset.jpg",
+      "alt": "석양빛에 물든 순천만 갈대밭 사이로 흐르는 S자 수로",
+      "caption": "황금빛 갈대밭과 S자 물길",
+      "tag": "순천만"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-reed-autumn-mountain.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-reed-autumn-mountain.jpg",
+      "alt": "순천만 갈대밭 뒤로 단풍과 침엽수가 어우러진 산 능선",
+      "caption": "갈대밭 너머 가을 산",
+      "tag": "순천만"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-wetland-reflection.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-wetland-reflection.jpg",
+      "alt": "잔잔한 순천만 습지 수면 위로 비친 구름과 햇살",
+      "caption": "순천만 습지의 오후 빛",
+      "tag": "순천만"
+    },
+    {
+      "src": "assets/gallery/full/suncheonbay-eco-observatory.jpg",
+      "thumb": "assets/gallery/thumb/suncheonbay-eco-observatory.jpg",
+      "alt": "순천만 자연생태관 전망대에서 망원경으로 습지를 바라보는 모습",
+      "caption": "순천만 전망대 망원경과 들판",
+      "tag": "순천만"
     }
   ]
 }
