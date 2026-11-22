@@ -263,15 +263,15 @@ CAPTIONS += [
 ]
 
 CAPTIONS += [
-    # 제자 결혼식 주례 (2026-11-21) — 사진첩 캡션 + 라이트박스 이미지 설명(alt)
-    ("제자의 결혼식 주례",
-     "Officiating a student's wedding",
-     "教え子の結婚式で司式",
-     "为弟子主持婚礼"),
-    ("꽃 장식이 어우러진 예식장 단상에서 제자의 결혼식 주례를 맡은 김건우 교수",
-     "Professor Geonwoo Kim officiating a student's wedding at a flower-decorated chapel podium",
-     "花飾りに囲まれた式場の壇上で教え子の結婚式の司式を務める金建佑教授",
-     "在花饰环绕的礼堂礼台上为弟子婚礼主持的金建佑教授"),
+    # 제자 결혼식 성혼문 낭독 (2026-11-21 추가, 2026-11-22 '주례'→'성혼문 낭독' 수정)
+    ("제자의 결혼식 성혼문 낭독",
+     "Reading the marriage vow at a student's wedding",
+     "教え子の結婚式での成婚文朗読",
+     "在弟子婚礼上宣读证婚词"),
+    ("꽃 장식이 어우러진 예식장 단상에서 제자의 결혼식 성혼문을 낭독하는 김건우 교수",
+     "Professor Geonwoo Kim reading the marriage vow at a student's wedding on a flower-decorated wedding podium",
+     "花飾りに囲まれた式場の壇上で教え子の結婚式の成婚文を朗読する金建佑教授",
+     "在花饰环绕的礼堂礼台上为弟子婚礼宣读证婚词的金建佑教授"),
 ]
 
 EXTRA = [

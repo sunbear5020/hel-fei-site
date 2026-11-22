@@ -2612,15 +2612,15 @@ window.FEI_I18N_DATA = {
       "ja": "順天湾自然生態館の展望台で望遠鏡越しに湿地を眺める様子",
       "zh": "在顺天湾自然生态馆展望台透过望远镜眺望湿地"
     },
-    "제자의 결혼식 주례": {
-      "en": "Officiating a student's wedding",
-      "ja": "教え子の結婚式で司式",
-      "zh": "为弟子主持婚礼"
+    "제자의 결혼식 성혼문 낭독": {
+      "en": "Reading the marriage vow at a student's wedding",
+      "ja": "教え子の結婚式での成婚文朗読",
+      "zh": "在弟子婚礼上宣读证婚词"
     },
-    "꽃 장식이 어우러진 예식장 단상에서 제자의 결혼식 주례를 맡은 김건우 교수": {
-      "en": "Professor Geonwoo Kim officiating a student's wedding at a flower-decorated chapel podium",
-      "ja": "花飾りに囲まれた式場の壇上で教え子の結婚式の司式を務める金建佑教授",
-      "zh": "在花饰环绕的礼堂礼台上为弟子婚礼主持的金建佑教授"
+    "꽃 장식이 어우러진 예식장 단상에서 제자의 결혼식 성혼문을 낭독하는 김건우 교수": {
+      "en": "Professor Geonwoo Kim reading the marriage vow at a student's wedding on a flower-decorated wedding podium",
+      "ja": "花飾りに囲まれた式場の壇上で教え子の結婚式の成婚文を朗読する金建佑教授",
+      "zh": "在花饰环绕的礼堂礼台上为弟子婚礼宣读证婚词的金建佑教授"
     },
     "김건우 교수": {
       "en": "Professor Geonwoo Kim",
