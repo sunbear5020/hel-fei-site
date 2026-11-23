@@ -1067,10 +1067,10 @@ window.FEI_I18N_DATA = {
       "ja": "設計中 · アイトラッキング分析",
       "zh": "设计中 · 眼动追踪分析"
     },
-    "Live · v0.1 Core": {
-      "en": "Live · v0.1 Core",
-      "ja": "公開中 · v0.1 コア",
-      "zh": "已上线 · v0.1 核心"
+    "Live · v0.2": {
+      "en": "Live · v0.2",
+      "ja": "公開中 · v0.2",
+      "zh": "已上线 · v0.2"
     },
     "워크벤치 열기": {
       "en": "Open workbench",
