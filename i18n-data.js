@@ -2842,6 +2842,16 @@ window.FEI_I18N_DATA = {
       "ja": "南海郡がヒーリングの森タウンや望雲山の癒しセンターなど森林休養施設を拡充するというニュースに、専門家として電話インタビューで参加しました。「森林休養施設の拡大は単なる観光産業ではなく、福祉と地域経済を共に牽引する戦略」と述べ、森を基盤とした事業が地域再生の機会になり得る点を指摘しました。映像の2分43秒からご覧いただけます。",
       "zh": "南海郡扩建疗愈森林小镇、望云山疗愈中心等森林休养设施的消息中，他作为专家接受电话采访。他表示“扩大森林休养设施不仅是旅游产业，更是同时带动福利与地方经济的战略”，并指出森林基础事业可成为地方再腾飞的机会。可从视频2分43秒处观看。"
     },
+    "「2026 구미 미래도시포럼」 공개포럼 — ‘농산촌 자원 활용 체류·정착 기반 조성’ 발표 보도": {
+      "en": "“2026 Gumi Future City Forum” open forum — press coverage of the talk on building a stay-and-settle base from agricultural and mountain-village resources",
+      "ja": "「2026 亀尾未来都市フォーラム」公開フォーラム — 「農山村の資源を活かした滞在・定住基盤の形成」発表の報道",
+      "zh": "“2026 龟尾未来城市论坛”公开论坛 — “利用农山村资源构建停留·定居基础”发表的报道"
+    },
+    "11월 23일 구미 호텔금오산에서 열린 ‘2026 구미 미래도시포럼’ 공개포럼 1부에서 빈집 등 농산촌 유휴자원을 체류 공간으로 활용하고 방문·체류가 정착으로 이어지는 지원 방안을 발표한 내용이 경북매일 등 언론에 보도됐습니다.": {
+      "en": "At the first session of the “2026 Gumi Future City Forum” open forum at Hotel Geumosan in Gumi on 23 November, he presented ways to use idle agricultural and mountain-village resources, such as empty houses, as places to stay and to help visits and short stays lead on to settlement. Gyeongbuk Mail and other outlets reported the talk.",
+      "ja": "11月23日に亀尾ホテル金烏山で開かれた「2026 亀尾未来都市フォーラム」公開フォーラム第1部で、空き家など農山村の遊休資源を滞在空間として活用し、訪問・滞在が定住につながる支援策を発表した内容が、慶北毎日などのメディアで報じられました。",
+      "zh": "11月23日在龟尾金乌山酒店举行的“2026 龟尾未来城市论坛”公开论坛第一部分中，发表了将空置房等农山村闲置资源用作停留空间、并让访问与短期停留走向定居的支持方案，相关内容获庆北每日等媒体报道。"
+    },
     "원문 보기": {
       "en": "Open original",
       "ja": "原文を見る",
